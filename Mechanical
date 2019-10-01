@@ -1,0 +1,18 @@
+Requirements
+
+  Materials
+    Baseplate: FR4, aluminum (alochrome or anodized), or Windform
+  
+  Outgassing/ Thermal
+    Must complete a thermal vacuum bakeout to boil off sublimates and derisk outgassing issues
+  
+  Vibration
+    Must complete testing for sinusoidal and random vibration (found in launch vehicle suppliers Payload User Guide)
+    
+  Dimensions/ Tolerances
+    1P PocketQube: 
+    Dimensions: 50x50x50mm cube with 58x64x1.6mm base plate (see albaorbital reference)
+    Mass: >=250g
+    Kill switches: must have redundant kill switches
+    Deployables: must not touch the walls of the AlbaPod
+    
