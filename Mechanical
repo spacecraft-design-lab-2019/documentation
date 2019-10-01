@@ -6,8 +6,11 @@ Requirements
     PQ-Gen-03: No toxic, flamable, or potentially hazardous materials (except Li-Ion batteries with protection from thermal runaway)
 
   Materials
-    Baseplate: FR4, aluminum (alochrome or anodized), or Windform
     PQ-Mat-01: any structural material shall be able to withstand all required environmental tests
+    PQ-Mat-02: recommended materials for the baseplate: FR4, aluminum (7075, 6061, 6065, 6082)
+      albaorbital: Baseplate: FR4, aluminum (alochrome or anodized), or Windform
+    PQ-Mat-03: any metallic materials in contact with the deployer and standoffs shall be hard anodized
+    PQ-Mat-04: contact the Launch Service Provider for any other materials not specified in PQ-Mat-02
   
   Out-gassing/ Thermal
     Must complete a thermal vacuum bakeout to boil off sublimates and derisk out-gassing issues
