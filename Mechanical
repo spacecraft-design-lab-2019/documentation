@@ -1,10 +1,18 @@
 Requirements
 
+  General
+    PQ-Gen-01: No detatchment of any components throughout entire mission
+    PQ-Gen-02: No pyrotechnics
+    PQ-Gen-03: No toxic, flamable, or potentially hazardous materials (except Li-Ion batteries with protection from thermal runaway)
+
   Materials
     Baseplate: FR4, aluminum (alochrome or anodized), or Windform
   
-  Outgassing/ Thermal
-    Must complete a thermal vacuum bakeout to boil off sublimates and derisk outgassing issues
+  Out-gassing/ Thermal
+    Must complete a thermal vacuum bakeout to boil off sublimates and derisk out-gassing issues
+    PQ-Gen-04: Out-gassing requirements:
+      TML<=1%
+      CVCM <=0.1%
   
   Vibration
     Must complete testing for sinusoidal and random vibration (found in launch vehicle suppliers Payload User Guide)
@@ -16,3 +24,5 @@ Requirements
     Kill switches: must have redundant kill switches
     Deployables: must not touch the walls of the AlbaPod
     
+  Batteries
+    PQ-Gen-03: Batteries will be protected from thermal runaway
