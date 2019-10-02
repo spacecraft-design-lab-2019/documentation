@@ -20,7 +20,7 @@ Requirements
   
   Vibration
     Must complete testing for sinusoidal and random vibration (found in launch vehicle suppliers Payload User Guide)
-    Falcon 9 Launch Vehicle Payload User's Guide: https://www.spaceflightnow.com/falcon9/001/f9guide.pdf
+    Falcon 9 Launch Vehicle Payload User's Guide (January 2019): https://www.spacex.com/sites/spacex/files/falcon_users_guide_0619.pdf
     
   Dimensions/ Tolerances (1P PocketQube)
     Dimensions: 50x50x50mm cube with 58x64x1.6mm backplate (see albaorbital reference or PocketQube Standard table 1 and figure 2 in section 2.2)
