@@ -1,0 +1,34 @@
+mppt (maximum power point tracking) = electronic DC/DC converter from solar panels to batteries
+•	Lowers voltage to something the batteries can use while minimizing power losses
+•	SPV1040 used on FossaSat - https://www.st.com/en/power-management/spv1040.html
+o	Input voltage range 0.3–5.5V
+o	Output voltage range 2-5.2V
+•	Other option: SPV1050 (not meant specifically for solar panels)
+o	Input voltage range 0.075-18V
+o	Output voltage range 2.6-5.3V
+FossaSat:
+•	https://github.com/Bambofy/FOSSASAT-1
+•	Deployable solar cells (nearly triples available power)
+o	Use metal hinges & torsion springs for deployment -> check with mechanical team if considering
+•	Uses 3 MPPTs (1 per axis) to maximize efficiency between shaded panels
+•	Solar cell deployment is risky- if we do it we need to make sure the system can still work undeployed
+•	Half wave 433mHz antenna made of metal carpenter’s tape (deployable without exterior mechanisms)
+
+EPS ~1/3 of total spacecraft mass
+Batteries can’t be charged upon launch -> activate 30 min after release
+
+Power Management and Distribution (PMAD):
+Source: https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=7&ved=2ahUKEwiq_OnbxvzkAhXUoFsKHU-yAWsQFjAGegQIBxAC&url=https%3A%2F%2Fwww.mdpi.com%2F2226-4310%2F5%2F2%2F63%2Fpdf-vor&usg=AOvVaw292cmp1dxeIOctnjSDfdb2
+•	Standardized PMAD: bus voltage of 8.2V
+•	Able to distribute 5V & 3.3V supplies
+•	Universal capabilities:
+o	Junctions to transfer power from generation source
+o	Power conditioner
+o	Switching circuit to divert power to systems/instrumentation
+o	Incorporate capacitor to add energy if battery voltage is insufficient
+
+Solar cell configuration options (based on available IXYS):
+•	2 22x35 mm + 2 23x8 mm
+•	2 22x35 mm + 2 22x7 mm
+•	2x7 grid of 22x7 mm
+•	2x8 grid of 23x8 mm
