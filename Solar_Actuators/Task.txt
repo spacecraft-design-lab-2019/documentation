@@ -1,0 +1,15 @@
+Tasks:
+1. Make Solar Panel PCB Layout Cwnaught
+  1) supporting circuitry
+  2) Bonding of solar cells (spacing)
+  3) Series v.s. Parallel v.s. redundancy
+  
+2. Solar Cell Calculator Katie
+  1) Temp(?) Irradiance angle(?)
+  2) Attitude effects (accounting for multiple sides)
+  3) Get min & max power
+  
+ 3. Charging Circuit - Zhengyu & Thomas 
+  1) How many regulators? (3? one for each face?)
+  2) What is an MPPT...?
+  
