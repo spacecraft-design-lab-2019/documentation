@@ -3,20 +3,22 @@ All panels are 6-layer PCBs with the magnetorquer taking up the inner 4 layers.
 +/-X, +/-Z, and +Y are ~48mm x 48mm (STILL BEING TWEAKED BY STRUCTURES)
 
 -Y is ~64mm x 58mm (The "rails" slide over ~3mm on each side of the 58mm length, so ~52mm x 64mm effective area)
-^Double Check!
+^Double Check! (Pulled from the PocketCube standard)
 
 
 //---Components on all PCBs---\\
 Front Side:
 Solar Cells - https://github.com/spacecraft-design-lab-2019/documentation/wiki/Solar-Cell-Survey
 ^Use any combination to maximize power on a panel. Try to get the voltage output to be ~3V (2V<voltage<5V). Upper limit is from MPPT
-Diodes - 
+Sun Sensors - [Fill in with link to sun sensor]
+Diodes - [Fill in with link to diode]
 ^Surface-mount SB diode, should get from Prof or Max
-Sen Sensors - 
+Two types of Diodes: Bypass Diodes, which are in parallel with each set of parallel solar cells
+                     Blocking Diodes, which are in series with the total solar cell circuit (see 'Solar Cell Overview.png')
 
 Back Side:
-Flat Flex Connector - 
-MPPT Circuit - 
+Flat Flex Connector - [Fill in with link to flat flex connector]
+MPPT Circuit - [Fill in with link to circuit]
 
 
 //--Components on select PCBS--\\
@@ -26,4 +28,10 @@ SMA connectors for the antennas
 
 -Y Panel:
 Hole for camera, ~22mm in diameter in the center of the board (check with structures - they said they were tweaking)
+
+
+//--------Magnetorquers--------\\
+Make 5 mil (0.005 inch) traces with a 5 mil separation from the next trace
+Connect both ends to the Flat Flex Connector
+
 
