@@ -1,6 +1,9 @@
 //-----Solar Panel Specs-----\\
 All panels are 6-layer PCBs with the magnetorquer taking up the inner 4 layers.
-+/-X, +/-Z, and +Y are ~48mm x 48mm (STILL BEING TWEAKED BY STRUCTURES)
++/-X, and +/-Z are 48.4mm x 48.4mm (STILL BEING TWEAKED BY STRUCTURES)
+The "missing" 1.6mm is due to the thickness of the PCB, so we should check the thickness
+
++Y is 50mm x 50mm (no overlap)
 
 -Y is ~64mm x 58mm (The "rails" slide over ~3mm on each side of the 58mm length, so ~52mm x 64mm effective area)
 ^Double Check! (Pulled from the PocketCube standard)
