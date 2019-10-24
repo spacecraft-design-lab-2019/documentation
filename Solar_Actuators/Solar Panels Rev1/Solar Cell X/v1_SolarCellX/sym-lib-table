@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name SolarCellParts)(type Legacy)(uri ${KIPRJMOD}/SolarCellParts.lib)(options "")(descr ""))
+)
