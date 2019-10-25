@@ -1,4 +1,4 @@
 (fp_lib_table
-  (lib (name SolarCellParts)(type KiCad)(uri "C:/Users/Chris Naughton/Desktop/School/F19/AA236/Solar Panel Designs/PocketQube/Solar Panels Rev1/Libraries/SolarCellParts.pretty")(options "")(descr ""))
-  (lib (name misc-circuits)(type KiCad)(uri "C:/Users/Chris Naughton/Desktop/School/F19/AA236/Solar Panel Designs/PocketQube/Solar Panels Rev1/solar-misc-circuits-master/misc-circuits.pretty")(options "")(descr ""))
+  (lib (name SolarCellParts)(type KiCad)(uri ${KIPRJMOD}/Libraries/SolarCellParts.pretty)(options "")(descr ""))
+  (lib (name misc-circuits)(type KiCad)(uri ${KIPRJMOD}/Libraries/misc-circuits.pretty)(options "")(descr ""))
 )
