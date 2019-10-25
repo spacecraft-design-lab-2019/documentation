@@ -1,28 +1,6 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Device_D_Schottky
-#
-DEF Device_D_Schottky D 0 40 N N 1 F N
-F0 "D" 0 100 50 H V C CNN
-F1 "Device_D_Schottky" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- TO-???*
- *_Diode_*
- *SingleDiode*
- D_*
-$ENDFPLIST
-DRAW
-P 2 0 1 0 50 0 -50 0 N
-P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
-P 6 0 1 8 -75 25 -75 50 -50 50 -50 -50 -25 -50 -25 -25 N
-X K 1 -150 0 100 R 50 50 1 1 P
-X A 2 150 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # power_+3V3
 #
 DEF power_+3V3 #PWR 0 0 Y Y 1 F P
@@ -313,23 +291,6 @@ X 9 9 0 -400 200 R 50 50 0 0 B
 ENDDRAW
 ENDDEF
 #
-# solarpcd-rescue_mainboard-rescue_ANTENNA_U.FL--mainboard-cache
-#
-DEF solarpcd-rescue_mainboard-rescue_ANTENNA_U.FL--mainboard-cache X 0 40 Y Y 1 L N
-F0 "X" -100 130 42 H V L BNN
-F1 "solarpcd-rescue_mainboard-rescue_ANTENNA_U.FL--mainboard-cache" -100 -400 42 H V L BNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-C 0 0 44 1 0 10 N
-C 0 0 100 1 0 10 N
-P 2 1 0 0 0 -100 0 -300 N
-X GND@0 1 -100 -200 100 R 0 0 1 0 P
-X GND@1 2 -100 -300 100 R 0 0 1 0 P
-X SIGNAL 3 200 0 200 L 0 0 1 0 P
-ENDDRAW
-ENDDEF
-#
 # solarpcd_lib_SWLP.12.B
 #
 DEF solarpcd_lib_SWLP.12.B U 0 40 Y Y 1 F N
@@ -393,6 +354,49 @@ S 200 -200 -200 -200 0 1 0 N
 S 200 -200 200 50 0 1 0 N
 X +V 1 -300 0 100 R 50 50 1 1 W
 X -V 2 300 0 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# symbols_MSS1P4-M3_89A
+#
+DEF symbols_MSS1P4-M3_89A D 0 30 Y Y 1 F N
+F0 "D" 400 350 50 H V L BNN
+F1 "symbols_MSS1P4-M3_89A" 400 250 50 H V L BNN
+F2 "MICROSMP" 400 150 50 H I L BNN
+F3 "https://www.vishay.com/docs/89019/mss1p4.pdf" 400 50 50 H I L BNN
+F4 "Vishay MSS1P4-M3/89A SMT Schottky Diode, 40V 1A, 2-Pin uSMP" 400 -50 50 H I L BNN "Description"
+F5 "Vishay" 400 -250 50 H I L BNN "Manufacturer_Name"
+F6 "MSS1P4-M3/89A" 400 -350 50 H I L BNN "Manufacturer_Part_Number"
+F7 "625-MSS1P4-M3" 400 -450 50 H I L BNN "Mouser Part Number"
+F8 "https://www.mouser.com/Search/Refine.aspx?Keyword=625-MSS1P4-M3" 400 -550 50 H I L BNN "Mouser Price/Stock"
+F9 "7103068P" 400 -650 50 H I L BNN "RS Part Number"
+F10 "http://uk.rs-online.com/web/p/products/7103068P" 400 -750 50 H I L BNN "RS Price/Stock"
+F11 "70217632" 400 -850 50 H I L BNN "Allied_Number"
+F12 "https://www.alliedelec.com/general-semiconductor-vishay-mss1p4-m3-89a/70217632/" 400 -950 50 H I L BNN "Allied Price/Stock"
+DRAW
+P 2 0 1 6 160 -100 200 -80 N
+P 2 0 1 6 200 80 200 -80 N
+P 2 0 1 6 200 80 240 100 N
+P 4 0 1 6 200 0 400 100 400 -100 200 0 N
+X ~ 1 0 0 200 R 50 50 0 0 U
+X ~ 2 600 0 200 L 50 50 0 0 U
+ENDDRAW
+ENDDEF
+#
+# symbols_U.FL-R-SMT-1
+#
+DEF symbols_U.FL-R-SMT-1 J 0 30 Y Y 1 F N
+F0 "J" -300 450 50 H V L CNN
+F1 "symbols_U.FL-R-SMT-1" -300 350 50 H V L CNN
+F2 "U.FL-R-SMT-1" -300 250 50 H I L CNN
+F3 "https://www.hirose.co.jp/cataloge_hp/ed_UFL_20141014.pdf" -300 150 50 H I L CNN
+F4 "Hirose" -300 -150 50 H I L CNN "Manufacturer_Name"
+F5 "U.FL-R-SMT-1" -300 -250 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 -200 100 200 100 200 -100 -200 -100 -200 100 N
+X GND 1 100 -300 200 U 50 50 0 0 U
+X 2 2 100 -300 200 U 50 50 0 0 U N
+X ANT 3 -400 0 200 R 50 50 0 0 U
 ENDDRAW
 ENDDEF
 #

@@ -65,69 +65,21 @@ Wire Wire Line
 Wire Wire Line
 	4150 6650 4100 6650
 Connection ~ 4150 6650
-$Comp
-L solarpcd-rescue:mainboard-rescue_ANTENNA_U.FL--mainboard-cache X1
-U 1 1 5DB105D3
-P 8650 8900
-F 0 "X1" H 8700 9149 42  0000 C CNN
-F 1 "mainboard-rescue_ANTENNA_U.FL-" H 8700 9070 42  0000 C CNN
-F 2 "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical" H 8650 8900 50  0001 C CNN
-F 3 "" H 8650 8900 50  0001 C CNN
-	1    8650 8900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4150 6650 4150 7350
 $Comp
 L solarpcd_lib:SWLP.12.B U1
 U 1 1 5DB14A86
-P 9100 9450
-F 0 "U1" H 9378 9546 50  0000 L CNN
-F 1 "SWLP.12.B" H 9378 9455 50  0000 L CNN
-F 2 "solarpcb:SWLP-12-B" H 9378 9364 50  0000 L CNN
-F 3 "" H 9100 9450 50  0001 C CNN
-	1    9100 9450
-	1    0    0    -1  
+P 7250 8900
+F 0 "U1" H 7528 8996 50  0000 L CNN
+F 1 "SWLP.12.B" H 7528 8905 50  0000 L CNN
+F 2 "solarpcb:SWLP-12-B" H 7528 8814 50  0000 L CNN
+F 3 "" H 7250 8900 50  0001 C CNN
+	1    7250 8900
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	9200 9200 9150 9200
-Connection ~ 8950 9200
-Wire Wire Line
-	8950 9200 8900 9200
-Connection ~ 9000 9200
-Wire Wire Line
-	9000 9200 8950 9200
-Connection ~ 9050 9200
-Wire Wire Line
-	9050 9200 9000 9200
-Connection ~ 9100 9200
-Wire Wire Line
-	9100 9200 9050 9200
-Connection ~ 9150 9200
-Wire Wire Line
-	9150 9200 9100 9200
-Wire Wire Line
-	8800 9200 8800 9300
-Connection ~ 8900 9200
-Wire Wire Line
-	8550 9100 8450 9100
-Wire Wire Line
-	8450 9100 8450 9550
-Wire Wire Line
-	8450 9550 8800 9550
-Wire Wire Line
-	8800 9200 8900 9200
-Wire Wire Line
-	8550 9200 8550 9300
-Wire Wire Line
-	8550 9300 8700 9300
-Connection ~ 8800 9300
-Wire Wire Line
-	8800 9300 8800 9350
-Wire Wire Line
 	2350 5650 2350 6100
-Wire Wire Line
-	1750 5650 1750 5900
 Connection ~ 1750 6100
 Connection ~ 2350 6100
 $Comp
@@ -206,12 +158,7 @@ Connection ~ 3500 6650
 Wire Wire Line
 	3500 6650 3500 7350
 Wire Wire Line
-	1750 6100 1750 6600
-Wire Wire Line
-	1750 5900 1400 5900
-Connection ~ 1750 5900
-Wire Wire Line
-	1750 5900 1750 6100
+	1750 6100 1750 6200
 Wire Wire Line
 	4150 6150 4150 6400
 Wire Wire Line
@@ -961,46 +908,40 @@ $EndComp
 $Comp
 L solarpcd-rescue:XF2M-1015-1A-symbols-misc-circuits-rescue J1
 U 1 1 5DB12088
-P 9000 5900
-F 0 "J1" H 9450 6165 50  0000 C CNN
-F 1 "XF2M-1015-1A" H 9450 6074 50  0000 C CNN
-F 2 "solarpcb:XF2M-1015-1A" H 9750 6000 50  0001 L CNN
-F 3 "" H 9750 5900 50  0001 L CNN
-F 4 "0.5mm Rotary backlock 10 way Omron XF2M Series 0.5mm Pitch 10 Way Right Angle SMT Female FPC Connector Locking Mechanism, Top and Bottom Contact" H 9750 5800 50  0001 L CNN "Description"
-F 5 "Omron Electronics" H 9750 5600 50  0001 L CNN "Manufacturer_Name"
-F 6 "XF2M-1015-1A" H 9750 5500 50  0001 L CNN "Manufacturer_Part_Number"
-F 7 "653-XF2M-1015-1A" H 9750 5400 50  0001 L CNN "Mouser Part Number"
-F 8 "https://www.mouser.com/Search/Refine.aspx?Keyword=653-XF2M-1015-1A" H 9750 5300 50  0001 L CNN "Mouser Price/Stock"
-F 9 "7315772P" H 9750 5200 50  0001 L CNN "RS Part Number"
-F 10 "http://uk.rs-online.com/web/p/products/7315772P" H 9750 5100 50  0001 L CNN "RS Price/Stock"
-F 11 "70667825" H 9750 5000 50  0001 L CNN "Allied_Number"
-F 12 "https://www.alliedelec.com/omron-electronic-components-xf2m-1015-1a/70667825/" H 9750 4900 50  0001 L CNN "Allied Price/Stock"
-	1    9000 5900
+P 7700 5000
+F 0 "J1" H 8150 5265 50  0000 C CNN
+F 1 "XF2M-1015-1A" H 8150 5174 50  0000 C CNN
+F 2 "solarpcb:XF2M-1015-1A" H 8450 5100 50  0001 L CNN
+F 3 "" H 8450 5000 50  0001 L CNN
+F 4 "0.5mm Rotary backlock 10 way Omron XF2M Series 0.5mm Pitch 10 Way Right Angle SMT Female FPC Connector Locking Mechanism, Top and Bottom Contact" H 8450 4900 50  0001 L CNN "Description"
+F 5 "Omron Electronics" H 8450 4700 50  0001 L CNN "Manufacturer_Name"
+F 6 "XF2M-1015-1A" H 8450 4600 50  0001 L CNN "Manufacturer_Part_Number"
+F 7 "653-XF2M-1015-1A" H 8450 4500 50  0001 L CNN "Mouser Part Number"
+F 8 "https://www.mouser.com/Search/Refine.aspx?Keyword=653-XF2M-1015-1A" H 8450 4400 50  0001 L CNN "Mouser Price/Stock"
+F 9 "7315772P" H 8450 4300 50  0001 L CNN "RS Part Number"
+F 10 "http://uk.rs-online.com/web/p/products/7315772P" H 8450 4200 50  0001 L CNN "RS Price/Stock"
+F 11 "70667825" H 8450 4100 50  0001 L CNN "Allied_Number"
+F 12 "https://www.alliedelec.com/omron-electronic-components-xf2m-1015-1a/70667825/" H 8450 4000 50  0001 L CNN "Allied Price/Stock"
+	1    7700 5000
 	1    0    0    -1  
 $EndComp
-Text Notes 8750 5150 0    100  ~ 0
+Text Notes 7450 4650 0    100  ~ 0
 Flat Flex Connector
-Wire Wire Line
-	9900 5900 10050 5900
-Text GLabel 10050 5900 2    50   Output ~ 0
-BATT_P
-Text GLabel 10050 6000 2    50   Output ~ 0
+Text GLabel 8750 5000 2    50   Output ~ 0
 BATT_N
 Wire Wire Line
-	10050 6000 9900 6000
+	8750 5000 8600 5000
 $Comp
 L power:GND #PWR0108
 U 1 1 5DB779CC
-P 10050 6300
-F 0 "#PWR0108" H 10050 6050 50  0001 C CNN
-F 1 "GND" H 10055 6127 50  0000 C CNN
-F 2 "" H 10050 6300 50  0001 C CNN
-F 3 "" H 10050 6300 50  0001 C CNN
-	1    10050 6300
+P 9150 5300
+F 0 "#PWR0108" H 9150 5050 50  0001 C CNN
+F 1 "GND" H 9155 5127 50  0000 C CNN
+F 2 "" H 9150 5300 50  0001 C CNN
+F 3 "" H 9150 5300 50  0001 C CNN
+	1    9150 5300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9900 6300 10050 6300
 $Comp
 L power:+3V3 #PWR0109
 U 1 1 5DB7CE90
@@ -1020,16 +961,16 @@ Connection ~ 9600 2600
 $Comp
 L power:+3V3 #PWR0110
 U 1 1 5DB87DA5
-P 8850 6200
-F 0 "#PWR0110" H 8850 6050 50  0001 C CNN
-F 1 "+3V3" V 8850 6400 50  0000 C CNN
-F 2 "" H 8850 6200 50  0001 C CNN
-F 3 "" H 8850 6200 50  0001 C CNN
-	1    8850 6200
-	0    -1   -1   0   
+P 8750 5200
+F 0 "#PWR0110" H 8750 5050 50  0001 C CNN
+F 1 "+3V3" V 8750 5400 50  0000 C CNN
+F 2 "" H 8750 5200 50  0001 C CNN
+F 3 "" H 8750 5200 50  0001 C CNN
+	1    8750 5200
+	0    1    1    0   
 $EndComp
 Wire Wire Line
-	9000 6200 8850 6200
+	8600 5200 8750 5200
 $Comp
 L solarpcd-rescue:TSL2561-symbols-misc-circuits-rescue IC2
 U 1 1 5DB13ECD
@@ -1132,40 +1073,34 @@ Wire Wire Line
 Wire Wire Line
 	5550 6900 5800 6900
 NoConn ~ 7400 6500
-Text GLabel 8800 6000 0    50   BiDi ~ 0
+Text GLabel 8800 5100 2    50   BiDi ~ 0
 SCL1
 Wire Wire Line
-	8800 6000 9000 6000
-Text GLabel 8800 5900 0    50   BiDi ~ 0
+	8800 5100 8600 5100
+Text GLabel 7500 5100 0    50   BiDi ~ 0
 SDA1
 Wire Wire Line
-	8800 5900 9000 5900
-Text GLabel 8800 6100 0    50   BiDi ~ 0
+	7500 5100 7700 5100
+Text GLabel 7500 5200 0    50   BiDi ~ 0
 BURN1
 Wire Wire Line
-	8800 6100 9000 6100
-Text GLabel 10050 6100 2    50   BiDi ~ 0
+	7500 5200 7700 5200
+Text GLabel 8750 5400 2    50   BiDi ~ 0
 COIL_P
 Wire Wire Line
-	10050 6100 9900 6100
-Text GLabel 10050 6200 2    50   BiDi ~ 0
-COIL_N
-Wire Wire Line
-	10050 6200 9900 6200
+	8750 5400 8600 5400
 $Comp
 L power:GND #PWR0113
 U 1 1 5DB7ADC7
-P 8850 6300
-F 0 "#PWR0113" H 8850 6050 50  0001 C CNN
-F 1 "GND" H 8855 6127 50  0000 C CNN
-F 2 "" H 8850 6300 50  0001 C CNN
-F 3 "" H 8850 6300 50  0001 C CNN
-	1    8850 6300
+P 7200 5300
+F 0 "#PWR0113" H 7200 5050 50  0001 C CNN
+F 1 "GND" H 7205 5127 50  0000 C CNN
+F 2 "" H 7200 5300 50  0001 C CNN
+F 3 "" H 7200 5300 50  0001 C CNN
+	1    7200 5300
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	9000 6300 8850 6300
-Text GLabel 1100 5900 0    50   BiDi ~ 0
+Text GLabel 950  6200 0    50   BiDi ~ 0
 VSOLAR
 Wire Wire Line
 	4500 6300 4500 6400
@@ -1221,36 +1156,113 @@ F 3 "" H 4650 1900 50  0001 C CNN
 	1    4650 1900
 	0    -1   -1   0   
 $EndComp
-Text GLabel 10400 5500 0    50   Input ~ 0
-COIL_P
-Text GLabel 10950 5500 0    50   Output ~ 0
-COIL_N
-Wire Wire Line
-	10400 5500 10950 5500
-Text GLabel 8900 9050 0    50   Output ~ 0
-GND
-Wire Wire Line
-	10600 5850 3150 5850
-Wire Wire Line
-	3150 5850 3150 1250
-Wire Wire Line
-	8900 9050 8900 9150
-Wire Wire Line
-	8900 9150 8700 9150
-Wire Wire Line
-	8700 9150 8700 9300
-Connection ~ 8700 9300
-Wire Wire Line
-	8700 9300 8800 9300
 $Comp
-L Device:D_Schottky D?
-U 1 1 5DB42AAB
-P 1250 5900
-F 0 "D?" H 1250 5684 50  0000 C CNN
-F 1 "D_Schottky" H 1250 5775 50  0000 C CNN
-F 2 "custom-footprints:MICROSMP" H 1250 5900 50  0001 C CNN
-F 3 "~" H 1250 5900 50  0001 C CNN
-	1    1250 5900
-	-1   0    0    1   
+L symbols:MSS1P4-M3_89A D30
+U 1 1 5DB46377
+P 950 6200
+F 0 "D30" H 1250 6465 50  0000 C CNN
+F 1 "MSS1P4-M3_89A" H 1250 6374 50  0000 C CNN
+F 2 "MICROSMP" H 1350 6350 50  0001 L BNN
+F 3 "https://www.vishay.com/docs/89019/mss1p4.pdf" H 1350 6250 50  0001 L BNN
+F 4 "Vishay MSS1P4-M3/89A SMT Schottky Diode, 40V 1A, 2-Pin uSMP" H 1350 6150 50  0001 L BNN "Description"
+F 5 "" H 1350 6050 50  0001 L BNN "Height"
+F 6 "Vishay" H 1350 5950 50  0001 L BNN "Manufacturer_Name"
+F 7 "MSS1P4-M3/89A" H 1350 5850 50  0001 L BNN "Manufacturer_Part_Number"
+F 8 "625-MSS1P4-M3" H 1350 5750 50  0001 L BNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=625-MSS1P4-M3" H 1350 5650 50  0001 L BNN "Mouser Price/Stock"
+F 10 "7103068P" H 1350 5550 50  0001 L BNN "RS Part Number"
+F 11 "http://uk.rs-online.com/web/p/products/7103068P" H 1350 5450 50  0001 L BNN "RS Price/Stock"
+F 12 "70217632" H 1350 5350 50  0001 L BNN "Allied_Number"
+F 13 "https://www.alliedelec.com/general-semiconductor-vishay-mss1p4-m3-89a/70217632/" H 1350 5250 50  0001 L BNN "Allied Price/Stock"
+	1    950  6200
+	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1550 6200 1750 6200
+Connection ~ 1750 6200
+Wire Wire Line
+	1750 6200 1750 6600
+Wire Wire Line
+	1750 5650 1750 6100
+Text GLabel 7550 5000 0    50   Output ~ 0
+BATT_P
+Wire Wire Line
+	7700 5000 7550 5000
+Wire Wire Line
+	7200 5300 7700 5300
+Wire Wire Line
+	8600 5300 9150 5300
+$Comp
+L symbols:U.FL-R-SMT-1 J2
+U 1 1 5DC33039
+P 6950 8300
+F 0 "J2" H 6842 8565 50  0000 C CNN
+F 1 "U.FL-R-SMT-1" H 6842 8474 50  0000 C CNN
+F 2 "custom-footprints:U.FL-R-SMT-1" H 6650 8550 50  0001 L CNN
+F 3 "https://www.hirose.co.jp/cataloge_hp/ed_UFL_20141014.pdf" H 6650 8450 50  0001 L CNN
+F 4 "Hirose" H 6650 8150 50  0001 L CNN "Manufacturer_Name"
+F 5 "U.FL-R-SMT-1" H 6650 8050 50  0001 L CNN "Manufacturer_Part_Number"
+	1    6950 8300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 8300 7350 8600
+Wire Wire Line
+	7150 8600 7000 8600
+Wire Wire Line
+	7000 9000 7000 8950
+Connection ~ 7000 8600
+Wire Wire Line
+	7000 8600 6850 8600
+Connection ~ 7000 8700
+Wire Wire Line
+	7000 8700 7000 8600
+Connection ~ 7000 8750
+Wire Wire Line
+	7000 8750 7000 8700
+Connection ~ 7000 8800
+Wire Wire Line
+	7000 8800 7000 8750
+Connection ~ 7000 8850
+Wire Wire Line
+	7000 8850 7000 8800
+Connection ~ 7000 8900
+Wire Wire Line
+	7000 8900 7000 8850
+Connection ~ 7000 8950
+Wire Wire Line
+	7000 8950 7000 8900
+$Comp
+L power:GND #PWR0115
+U 1 1 5DC4B261
+P 6800 9000
+F 0 "#PWR0115" H 6800 8750 50  0001 C CNN
+F 1 "GND" H 6805 8827 50  0000 C CNN
+F 2 "" H 6800 9000 50  0001 C CNN
+F 3 "" H 6800 9000 50  0001 C CNN
+	1    6800 9000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 9000 7000 9000
+Connection ~ 7000 9000
+$Comp
+L solarpcd-rescue:0OHM-0603-1_10W-5%-misc-circuits-cache-misc-circuits-rescue R16
+U 1 1 5DC5DDB7
+P 9150 6450
+F 0 "R16" V 9211 6382 70  0000 R CNN
+F 1 "0" V 9090 6382 70  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 9150 6450 50  0001 C CNN
+F 3 "" H 9150 6450 50  0001 C CNN
+	1    9150 6450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9150 6250 9600 6250
+Text Label 9600 6250 0    50   ~ 0
+coil
+Wire Wire Line
+	7550 5400 7700 5400
+Text GLabel 7550 5400 0    50   BiDi ~ 0
+COIL_N
 $EndSCHEMATC
