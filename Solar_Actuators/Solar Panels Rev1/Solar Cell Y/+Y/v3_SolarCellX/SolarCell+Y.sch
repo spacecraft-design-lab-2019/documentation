@@ -176,12 +176,6 @@ BATT_P
 Text GLabel 9850 3450 2    50   Input ~ 0
 BATT_N
 Wire Wire Line
-	9850 3550 10950 3550
-Wire Wire Line
-	10950 3550 10950 3650
-Wire Wire Line
-	10950 3650 9850 3650
-Wire Wire Line
 	8950 3350 8050 3350
 Wire Wire Line
 	8050 3350 8050 4250
