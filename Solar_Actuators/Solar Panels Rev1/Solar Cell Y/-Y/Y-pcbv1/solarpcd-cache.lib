@@ -1,6 +1,47 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Connector_Screw_Terminal_01x02
+#
+DEF Connector_Screw_Terminal_01x02 J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Connector_Screw_Terminal_01x02" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ TerminalBlock*:*
+$ENDFPLIST
+DRAW
+C 0 -100 25 1 1 6 N
+C 0 0 25 1 1 6 N
+S -50 50 50 -150 1 1 10 f
+P 2 1 1 6 -21 -87 13 -120 N
+P 2 1 1 6 -21 13 13 -20 N
+P 2 1 1 6 -14 -80 20 -113 N
+P 2 1 1 6 -14 20 20 -13 N
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+X Pin_2 2 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Switch_SW_SPDT
+#
+DEF Switch_SW_SPDT SW 0 0 Y N 1 F N
+F0 "SW" 0 170 50 H V C CNN
+F1 "Switch_SW_SPDT" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C -80 0 20 0 0 0 N
+C 80 -100 20 0 0 0 N
+C 80 100 20 0 1 0 N
+P 2 0 1 0 -60 10 65 90 N
+X A 1 200 100 100 L 50 50 1 1 P
+X B 2 -200 0 100 R 50 50 1 1 P
+X C 3 200 -100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # power_+3V3
 #
 DEF power_+3V3 #PWR 0 0 Y Y 1 F P
@@ -66,173 +107,6 @@ P 2 1 0 0 65 40 90 -40 N
 P 2 1 0 0 90 -40 100 0 N
 X 1 1 -200 0 100 R 0 0 1 0 P
 X 2 2 200 0 100 L 0 0 1 0 P
-ENDDRAW
-ENDDEF
-#
-# solarpcd-rescue_1.0UF-0603-16V-10%-misc-circuits-cache-misc-circuits-rescue
-#
-DEF solarpcd-rescue_1.0UF-0603-16V-10%-misc-circuits-cache-misc-circuits-rescue C 0 40 Y Y 1 L N
-F0 "C" 60 115 70 H V L BNN
-F1 "solarpcd-rescue_1.0UF-0603-16V-10%-misc-circuits-cache-misc-circuits-rescue" 60 -85 70 H V L BNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S -80 20 80 40 1 0 0 F
-S -80 60 80 80 1 0 0 F
-P 2 1 0 0 0 0 0 20 N
-P 2 1 0 0 0 100 0 80 N
-X 1 1 0 200 100 D 0 0 1 0 P
-X 2 2 0 -100 100 U 0 0 1 0 P
-ENDDRAW
-ENDDEF
-#
-# solarpcd-rescue_10NF-0603-50V-10%-misc-circuits-cache-misc-circuits-rescue
-#
-DEF solarpcd-rescue_10NF-0603-50V-10%-misc-circuits-cache-misc-circuits-rescue C 0 40 Y Y 1 L N
-F0 "C" 60 115 70 H V L BNN
-F1 "solarpcd-rescue_10NF-0603-50V-10%-misc-circuits-cache-misc-circuits-rescue" 60 -85 70 H V L BNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S -80 20 80 40 1 0 0 F
-S -80 60 80 80 1 0 0 F
-P 2 1 0 0 0 0 0 20 N
-P 2 1 0 0 0 100 0 80 N
-X 1 1 0 200 100 D 0 0 1 0 P
-X 2 2 0 -100 100 U 0 0 1 0 P
-ENDDRAW
-ENDDEF
-#
-# solarpcd-rescue_1MOHM-0603-1_4W-5%-misc-circuits-cache-misc-circuits-rescue
-#
-DEF solarpcd-rescue_1MOHM-0603-1_4W-5%-misc-circuits-cache-misc-circuits-rescue R 0 40 Y Y 1 L N
-F0 "R" 0 60 70 H V C BNN
-F1 "solarpcd-rescue_1MOHM-0603-1_4W-5%-misc-circuits-cache-misc-circuits-rescue" 0 -60 70 H V C TNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 1 0 0 -100 0 -85 40 N
-P 2 1 0 0 -85 40 -60 -40 N
-P 2 1 0 0 -60 -40 -35 40 N
-P 2 1 0 0 -35 40 -10 -40 N
-P 2 1 0 0 -10 -40 15 40 N
-P 2 1 0 0 15 40 40 -40 N
-P 2 1 0 0 40 -40 65 40 N
-P 2 1 0 0 65 40 90 -40 N
-P 2 1 0 0 90 -40 100 0 N
-X 1 1 -200 0 100 R 0 0 1 0 P
-X 2 2 200 0 100 L 0 0 1 0 P
-ENDDRAW
-ENDDEF
-#
-# solarpcd-rescue_22UF-0805-6.3V-20%-misc-circuits-cache-misc-circuits-rescue
-#
-DEF solarpcd-rescue_22UF-0805-6.3V-20%-misc-circuits-cache-misc-circuits-rescue C 0 40 Y Y 1 L N
-F0 "C" 60 115 70 H V L BNN
-F1 "solarpcd-rescue_22UF-0805-6.3V-20%-misc-circuits-cache-misc-circuits-rescue" 60 -85 70 H V L BNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S -80 20 80 40 1 0 0 F
-S -80 60 80 80 1 0 0 F
-P 2 1 0 0 0 0 0 20 N
-P 2 1 0 0 0 100 0 80 N
-X 1 1 0 200 100 D 0 0 1 0 P
-X 2 2 0 -100 100 U 0 0 1 0 P
-ENDDRAW
-ENDDEF
-#
-# solarpcd-rescue_4.7UF0603-misc-circuits-cache-misc-circuits-rescue
-#
-DEF solarpcd-rescue_4.7UF0603-misc-circuits-cache-misc-circuits-rescue C 0 40 Y Y 1 L N
-F0 "C" 60 115 70 H V L BNN
-F1 "solarpcd-rescue_4.7UF0603-misc-circuits-cache-misc-circuits-rescue" 60 -85 70 H V L BNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S -80 20 80 40 1 0 0 F
-S -80 60 80 80 1 0 0 F
-P 2 1 0 0 0 0 0 20 N
-P 2 1 0 0 0 100 0 80 N
-X 1 1 0 200 100 D 0 0 1 0 P
-X 2 2 0 -100 100 U 0 0 1 0 P
-ENDDRAW
-ENDDEF
-#
-# solarpcd-rescue_BQ25570RGRR-misc-circuits-cache-misc-circuits-rescue
-#
-DEF solarpcd-rescue_BQ25570RGRR-misc-circuits-cache-misc-circuits-rescue U 0 40 Y Y 1 L N
-F0 "U" -186 59 69 H V L BNN
-F1 "solarpcd-rescue_BQ25570RGRR-misc-circuits-cache-misc-circuits-rescue" -211 -41 69 H V L BNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 1 0 0 -800 -1200 800 -1200 N
-P 2 1 0 0 -800 1200 -800 -1200 N
-P 2 1 0 0 800 -1200 800 1200 N
-P 2 1 0 0 800 1200 -800 1200 N
-X VSS_2 1 1000 -800 200 L 50 50 1 0 W
-X OK_HYST 10 -1000 -800 200 R 50 50 1 0 I
-X OK_PROG 11 -1000 -600 200 R 50 50 1 0 I
-X VOUT_SET 12 -1000 -1000 200 R 50 50 1 0 I
-X VBAT_OK 13 -1000 0 200 R 50 50 1 0 O
-X VOUT 14 1000 100 200 L 50 50 1 0 W
-X VSS 15 1000 -900 200 L 50 50 1 0 W
-X LBUCK 16 1000 300 200 L 50 50 1 0 P
-X NC 17 1000 -600 200 L 50 50 1 0 P
-X VBAT 18 1000 500 200 L 50 50 1 0 B
-X VSTOR 19 1000 700 200 L 50 50 1 0 W
-X VIN_DC 2 -1000 600 200 R 50 50 1 0 W
-X LBOOST 20 -1000 1000 200 R 50 50 1 0 I
-X PAD 21 1000 -1000 200 L 50 50 1 0 W
-X VOC_SAMP 3 1000 900 200 L 50 50 1 0 I
-X VREF_SAMP 4 -1000 800 200 R 50 50 1 0 I
-X EN_N 5 -1000 400 200 R 50 50 1 0 I
-X VOUT_EN 6 -1000 200 200 R 50 50 1 0 I
-X VBAT_OV 7 -1000 -400 200 R 50 50 1 0 I
-X VRDIV 8 -1000 -200 200 R 50 50 1 0 O
-X NC_2 9 1000 -500 200 L 50 50 1 0 W
-ENDDRAW
-ENDDEF
-#
-# solarpcd-rescue_COILCRAFT-LPS4018-misc-circuits-cache-misc-circuits-rescue
-#
-DEF solarpcd-rescue_COILCRAFT-LPS4018-misc-circuits-cache-misc-circuits-rescue L 0 40 Y Y 1 L N
-F0 "L" -50 -200 59 V V L BNN
-F1 "solarpcd-rescue_COILCRAFT-LPS4018-misc-circuits-cache-misc-circuits-rescue" 150 -200 59 V V L BNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-A 0 -150 50 0 900 1 0 10 N 50 -150 0 -100
-A 0 -150 50 -900 0 1 0 10 N 0 -200 50 -150
-A 0 -50 50 0 900 1 0 10 N 50 -50 0 0
-A 0 -50 50 -900 0 1 0 10 N 0 -100 50 -50
-A 0 50 50 0 900 1 0 10 N 50 50 0 100
-A 0 50 50 -900 0 1 0 10 N 0 0 50 50
-A 0 150 50 0 900 1 0 10 N 50 150 0 200
-A 0 150 50 -900 0 1 0 10 N 0 100 50 150
-X 1 1 0 300 100 D 0 0 1 0 P
-X 2 2 0 -300 100 U 0 0 1 0 P
-ENDDRAW
-ENDDEF
-#
-# solarpcd-rescue_DIODE-SOD523-misc-circuits-cache-misc-circuits-rescue
-#
-DEF solarpcd-rescue_DIODE-SOD523-misc-circuits-cache-misc-circuits-rescue D 0 40 Y Y 1 L N
-F0 "D" 100 19 59 H V L BNN
-F1 "solarpcd-rescue_DIODE-SOD523-misc-circuits-cache-misc-circuits-rescue" 100 -91 59 H V L BNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-T 0 -100 0 13 0 1 0 "SpiceOrder 1" Normal 0 C C
-T 0 100 0 13 0 1 0 "SpiceOrder 2" Normal 0 C C
-P 2 1 0 0 -50 -50 50 0 N
-P 2 1 0 0 -50 50 -50 -50 N
-P 2 1 0 0 50 0 -50 50 N
-P 2 1 0 0 50 0 50 -50 N
-P 2 1 0 0 50 50 50 0 N
-X A A -100 0 100 R 0 0 1 0 P
-X C C 100 0 100 L 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
@@ -324,19 +198,6 @@ S -150 150 -150 -150 0 1 0 N
 P 3 0 1 0 -150 150 300 0 -150 -150 N
 X +V 1 -250 0 100 R 50 50 1 1 W
 X -V 2 400 0 100 L 50 50 1 1 w
-ENDDRAW
-ENDDEF
-#
-# solarpcd_lib_kill_switch
-#
-DEF solarpcd_lib_kill_switch U 0 40 Y Y 1 F N
-F0 "U" 0 0 50 H V C CNN
-F1 "solarpcd_lib_kill_switch" 0 0 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S -200 100 200 -100 0 1 0 N
-X BATT 2 -300 50 100 R 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #

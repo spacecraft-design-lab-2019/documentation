@@ -1,4 +1,4 @@
-169862671324276
+173006769638431
 custom-footprints
 225cir
 
@@ -202,6 +202,13 @@ Through hole pin header THT 1x09 2.54mm single row
 0
 9
 9
+custom-footprints
+D2F-L2
+
+
+0
+3
+3
 custom-footprints
 DS90
 
@@ -465,6 +472,13 @@ RFMHCW_SMT
 0
 16
 16
+custom-footprints
+SCREWTERMINAL-3.5MM-2_LOCK
+
+
+0
+2
+2
 custom-footprints
 SON50P400X400X80-13N
 DNT0012B

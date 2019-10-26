@@ -1089,10 +1089,6 @@ Text GLabel 8750 5400 2    50   BiDi ~ 0
 COIL_P
 Wire Wire Line
 	8750 5400 8600 5400
-Text GLabel 7550 5400 0    50   BiDi ~ 0
-COIL_N
-Wire Wire Line
-	7550 5400 7700 5400
 $Comp
 L power:GND #PWR0113
 U 1 1 5DB7ADC7
@@ -1251,10 +1247,10 @@ Wire Wire Line
 	6800 9000 7000 9000
 Connection ~ 7000 9000
 $Comp
-L solarpcd-rescue:0OHM-0603-1_10W-5%-misc-circuits-cache-misc-circuits-rescue R?
+L solarpcd-rescue:0OHM-0603-1_10W-5%-misc-circuits-cache-misc-circuits-rescue R16
 U 1 1 5DC5DDB7
 P 9150 6450
-F 0 "R?" V 9211 6382 70  0000 R CNN
+F 0 "R16" V 9211 6382 70  0000 R CNN
 F 1 "0" V 9090 6382 70  0000 R CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9150 6450 50  0001 C CNN
 F 3 "" H 9150 6450 50  0001 C CNN
@@ -1265,4 +1261,8 @@ Wire Wire Line
 	9150 6250 9600 6250
 Text Label 9600 6250 0    50   ~ 0
 coil
+Wire Wire Line
+	7550 5400 7700 5400
+Text GLabel 7550 5400 0    50   BiDi ~ 0
+COIL_N
 $EndSCHEMATC
