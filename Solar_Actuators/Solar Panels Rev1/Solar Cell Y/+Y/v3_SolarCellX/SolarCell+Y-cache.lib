@@ -1,31 +1,6 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Connector_Conn_Coaxial
-#
-DEF Connector_Conn_Coaxial J 0 40 Y N 1 F N
-F0 "J" 10 120 50 H V C CNN
-F1 "Connector_Conn_Coaxial" 115 0 50 V V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- *BNC*
- *SMA*
- *SMB*
- *SMC*
- *Cinch*
-$ENDFPLIST
-DRAW
-A -2 0 71 1636 0 0 1 10 N -70 20 70 0
-A -1 0 71 0 -1638 0 1 10 N 70 0 -70 -20
-C 0 0 20 0 1 8 N
-P 2 0 1 0 -100 0 -20 0 N
-P 2 0 1 0 0 -100 0 -70 N
-X In 1 -200 0 100 R 50 50 1 1 P
-X Ext 2 0 -200 100 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # Device_C_Small
 #
 DEF Device_C_Small C 0 10 N N 1 F N
@@ -41,6 +16,24 @@ P 2 0 1 13 -60 -20 60 -20 N
 P 2 0 1 12 -60 20 60 20 N
 X ~ 1 0 100 80 D 50 50 1 1 P
 X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_R_Small_US
+#
+DEF Device_R_Small_US R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "Device_R_Small_US" 30 -40 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+P 5 1 1 0 0 0 40 -15 0 -30 -40 -45 0 -60 N
+P 5 1 1 0 0 60 40 45 0 30 -40 15 0 0 N
+X ~ 1 0 100 40 D 50 50 1 1 P
+X ~ 2 0 -100 40 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -60,11 +53,11 @@ X 1 1 0 -100 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# SolarCellParts_SBDiode
+# SolarCell+Y-rescue_SBDiode-SolarCellParts
 #
-DEF SolarCellParts_SBDiode D 0 0 Y Y 1 F N
+DEF SolarCell+Y-rescue_SBDiode-SolarCellParts D 0 0 Y Y 1 F N
 F0 "D" -60 120 50 H V C CNN
-F1 "SolarCellParts_SBDiode" -60 220 50 H V C CNN
+F1 "SolarCell+Y-rescue_SBDiode-SolarCellParts" -60 220 50 H V C CNN
 F2 "SolarCellParts:SB Diode" -120 330 50 H I C CNN
 F3 "" -60 120 50 H I C CNN
 DRAW
@@ -78,11 +71,11 @@ X POS 2 -260 0 100 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# SolarCellParts_SolarCell_Small
+# SolarCell+Y-rescue_SolarCell_Small-SolarCellParts
 #
-DEF SolarCellParts_SolarCell_Small SC 0 40 Y Y 1 F N
+DEF SolarCell+Y-rescue_SolarCell_Small-SolarCellParts SC 0 40 Y Y 1 F N
 F0 "SC" 0 -50 50 H V C CNN
-F1 "SolarCellParts_SolarCell_Small" 0 50 50 H V C CNN
+F1 "SolarCell+Y-rescue_SolarCell_Small-SolarCellParts" 0 50 50 H V C CNN
 F2 "SolarCellParts:KXOB25-05X3F" 0 250 50 H I C CNN
 F3 "" 200 0 50 V I C CNN
 DRAW
@@ -92,11 +85,11 @@ X V- 2 650 0 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# misc-circuits-cache_symbols_TSL2561
+# SolarCell+Y-rescue_symbols_TSL2561-misc-circuits-cache
 #
-DEF misc-circuits-cache_symbols_TSL2561 IC 0 30 Y Y 1 F N
+DEF SolarCell+Y-rescue_symbols_TSL2561-misc-circuits-cache IC 0 30 Y Y 1 F N
 F0 "IC" 1150 300 50 H V L CNN
-F1 "misc-circuits-cache_symbols_TSL2561" 1150 200 50 H V L CNN
+F1 "SolarCell+Y-rescue_symbols_TSL2561-misc-circuits-cache" 1150 200 50 H V L CNN
 F2 "TSL2561" 1150 100 50 H I L CNN
 F3 "https://ams.com/documents/20143/36005/TSL2561_DS000110_3-00.pdf/18a41097-2035-4333-c70e-bfa544c0a98b" 1150 0 50 H I L CNN
 F4 "Light-to-Digital Converter" 1150 -100 50 H I L CNN "Description"
@@ -116,11 +109,11 @@ X SDA 6 1300 -200 200 L 50 50 0 0 U
 ENDDRAW
 ENDDEF
 #
-# misc-circuits-cache_symbols_XF2M-1015-1A
+# SolarCell+Y-rescue_symbols_XF2M-1015-1A-misc-circuits-cache
 #
-DEF misc-circuits-cache_symbols_XF2M-1015-1A J 0 30 Y Y 1 F N
+DEF SolarCell+Y-rescue_symbols_XF2M-1015-1A-misc-circuits-cache J 0 30 Y Y 1 F N
 F0 "J" 750 300 50 H V L CNN
-F1 "misc-circuits-cache_symbols_XF2M-1015-1A" 750 200 50 H V L CNN
+F1 "SolarCell+Y-rescue_symbols_XF2M-1015-1A-misc-circuits-cache" 750 200 50 H V L CNN
 F2 "XF2M-1015-1A" 750 100 50 H I L CNN
 F3 "https://componentsearchengine.com/Datasheets/3/XF2M-1015-1A.pdf" 750 0 50 H I L CNN
 F4 "0.5mm Rotary backlock 10 way Omron XF2M Series 0.5mm Pitch 10 Way Right Angle SMT Female FPC Connector Locking Mechanism, Top and Bottom Contact" 750 -100 50 H I L CNN "Description"
@@ -163,19 +156,77 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power_Earth
+# power_GND
 #
-DEF power_Earth #PWR 0 0 Y Y 1 F P
+DEF power_GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power_Earth" 0 -150 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
-P 2 0 1 0 -25 -75 25 -75 N
-P 2 0 1 0 -5 -100 5 -100 N
-P 2 0 1 0 0 -50 0 0 N
-P 2 0 1 0 50 -50 -50 -50 N
-X Earth 1 0 0 0 D 50 50 1 1 W N
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# symbols_HHM17139B2
+#
+DEF symbols_HHM17139B2 U 0 40 Y Y 1 F N
+F0 "U" 0 200 50 H V C CNN
+F1 "symbols_HHM17139B2" 0 -200 50 H V C CNN
+F2 "custom-footprints:balun0603" 0 -300 50 H I C CNN
+F3 "" -350 -100 50 H I C CNN
+DRAW
+S -500 150 500 -150 0 1 0 N
+X Unbalanced 1 -600 100 100 R 50 50 1 1 I
+X GND 2 -600 -100 100 R 50 50 1 1 I
+X Balanced1 3 600 100 100 L 50 50 1 1 I
+X Balanced2 4 600 0 100 L 50 50 1 1 I
+X GND 5 600 -100 100 L 50 50 1 1 I
+X NC 6 600 -100 100 L 50 50 1 1 I N
+ENDDRAW
+ENDDEF
+#
+# symbols_MSS1P4-M3_89A
+#
+DEF symbols_MSS1P4-M3_89A D 0 30 Y Y 1 F N
+F0 "D" 400 350 50 H V L BNN
+F1 "symbols_MSS1P4-M3_89A" 400 250 50 H V L BNN
+F2 "MICROSMP" 400 150 50 H I L BNN
+F3 "https://www.vishay.com/docs/89019/mss1p4.pdf" 400 50 50 H I L BNN
+F4 "Vishay MSS1P4-M3/89A SMT Schottky Diode, 40V 1A, 2-Pin uSMP" 400 -50 50 H I L BNN "Description"
+F5 "Vishay" 400 -250 50 H I L BNN "Manufacturer_Name"
+F6 "MSS1P4-M3/89A" 400 -350 50 H I L BNN "Manufacturer_Part_Number"
+F7 "625-MSS1P4-M3" 400 -450 50 H I L BNN "Mouser Part Number"
+F8 "https://www.mouser.com/Search/Refine.aspx?Keyword=625-MSS1P4-M3" 400 -550 50 H I L BNN "Mouser Price/Stock"
+F9 "7103068P" 400 -650 50 H I L BNN "RS Part Number"
+F10 "http://uk.rs-online.com/web/p/products/7103068P" 400 -750 50 H I L BNN "RS Price/Stock"
+F11 "70217632" 400 -850 50 H I L BNN "Allied_Number"
+F12 "https://www.alliedelec.com/general-semiconductor-vishay-mss1p4-m3-89a/70217632/" 400 -950 50 H I L BNN "Allied Price/Stock"
+DRAW
+P 2 0 1 6 160 -100 200 -80 N
+P 2 0 1 6 200 80 200 -80 N
+P 2 0 1 6 200 80 240 100 N
+P 4 0 1 6 200 0 400 100 400 -100 200 0 N
+X ~ 1 0 0 200 R 50 50 0 0 U
+X ~ 2 600 0 200 L 50 50 0 0 U
+ENDDRAW
+ENDDEF
+#
+# symbols_U.FL-R-SMT-1
+#
+DEF symbols_U.FL-R-SMT-1 J 0 30 Y Y 1 F N
+F0 "J" -300 450 50 H V L CNN
+F1 "symbols_U.FL-R-SMT-1" -300 350 50 H V L CNN
+F2 "U.FL-R-SMT-1" -300 250 50 H I L CNN
+F3 "https://www.hirose.co.jp/cataloge_hp/ed_UFL_20141014.pdf" -300 150 50 H I L CNN
+F4 "Hirose" -300 -150 50 H I L CNN "Manufacturer_Name"
+F5 "U.FL-R-SMT-1" -300 -250 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 -200 100 200 100 200 -100 -200 -100 -200 100 N
+X GND 1 100 -300 200 U 50 50 0 0 U
+X 2 2 100 -300 200 U 50 50 0 0 U N
+X ANT 3 -400 0 200 R 50 50 0 0 U
 ENDDRAW
 ENDDEF
 #
