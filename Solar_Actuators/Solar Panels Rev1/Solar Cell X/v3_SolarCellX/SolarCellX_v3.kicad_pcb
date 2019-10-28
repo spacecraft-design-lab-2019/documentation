@@ -12,19 +12,19 @@
   (page A4)
   (layers
     (0 Top signal)
-    (1 In1.Cu signal)
-    (2 In2.Cu signal)
-    (3 In3.Cu signal)
-    (4 In4.Cu signal)
+    (1 In1.Cu signal hide)
+    (2 In2.Cu signal hide)
+    (3 In3.Cu signal hide)
+    (4 In4.Cu signal hide)
     (31 Bottom signal)
     (32 B.Adhes user hide)
     (33 F.Adhes user hide)
     (34 B.Paste user hide)
     (35 F.Paste user hide)
     (36 B.SilkS user)
-    (37 F.SilkS user)
-    (38 B.Mask user)
-    (39 F.Mask user)
+    (37 F.SilkS user hide)
+    (38 B.Mask user hide)
+    (39 F.Mask user hide)
     (40 Dwgs.User user hide)
     (41 Cmts.User user hide)
     (42 Eco1.User user hide)
@@ -439,6 +439,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${CUSTOM_FOOTPRINT_DIR}/3d/TSL2561.stp
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Resistor_SMD:R_0402_1005Metric (layer Top) (tedit 5B301BBD) (tstamp 5DB3C5B1)
@@ -739,7 +744,7 @@
       (net 8 VSOLAR))
     (pad 1 smd rect (at -1.7 1 270) (size 0.3 0.9) (layers Bottom B.Paste B.Mask)
       (net 1 GND))
-    (model BQ25570RGRR.stp
+    (model ${CUSTOM_FOOTPRINT_DIR}/3d/BQ25570RGRR.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -806,6 +811,11 @@
       (net 26 "Net-(D4-Pad2)"))
     (pad 1 smd rect (at 0 0) (size 2 7.4) (layers Top F.Paste F.Mask)
       (net 25 "Net-(D3-Pad2)"))
+    (model "${CUSTOM_FOOTPRINT_DIR}/3d/KXOB22-12X1F .step"
+      (offset (xyz 10.4902 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module SolarCellParts:KXOB25-05X3F (layer Top) (tedit 5DADF49B) (tstamp 5DB2101F)
@@ -828,6 +838,11 @@
       (net 1 GND))
     (pad 1 smd rect (at 0 0) (size 2 7.4) (layers Top F.Paste F.Mask)
       (net 26 "Net-(D4-Pad2)"))
+    (model "${CUSTOM_FOOTPRINT_DIR}/3d/KXOB22-12X1F .step"
+      (offset (xyz 10.4902 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module SolarCellParts:KXOB25-05X3F (layer Top) (tedit 5DADF49B) (tstamp 5DB21012)
@@ -850,6 +865,11 @@
       (net 1 GND))
     (pad 1 smd rect (at 0 0) (size 2 7.4) (layers Top F.Paste F.Mask)
       (net 26 "Net-(D4-Pad2)"))
+    (model "${CUSTOM_FOOTPRINT_DIR}/3d/KXOB22-12X1F .step"
+      (offset (xyz 10.4902 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module SolarCellParts:KXOB25-05X3F (layer Top) (tedit 5DADF49B) (tstamp 5DB21005)
@@ -872,6 +892,11 @@
       (net 1 GND))
     (pad 1 smd rect (at 0 0) (size 2 7.4) (layers Top F.Paste F.Mask)
       (net 26 "Net-(D4-Pad2)"))
+    (model "${CUSTOM_FOOTPRINT_DIR}/3d/KXOB22-12X1F .step"
+      (offset (xyz 10.4902 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module SolarCellParts:KXOB25-05X3F (layer Top) (tedit 5DADF49B) (tstamp 5DB20FF8)
@@ -894,6 +919,11 @@
       (net 1 GND))
     (pad 1 smd rect (at 0 0) (size 2 7.4) (layers Top F.Paste F.Mask)
       (net 26 "Net-(D4-Pad2)"))
+    (model "${CUSTOM_FOOTPRINT_DIR}/3d/KXOB22-12X1F .step"
+      (offset (xyz 10.4902 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module SolarCellParts:KXOB25-05X3F (layer Top) (tedit 5DADF49B) (tstamp 5DB20FEB)
@@ -916,6 +946,11 @@
       (net 26 "Net-(D4-Pad2)"))
     (pad 1 smd rect (at 0 0) (size 2 7.4) (layers Top F.Paste F.Mask)
       (net 25 "Net-(D3-Pad2)"))
+    (model "${CUSTOM_FOOTPRINT_DIR}/3d/KXOB22-12X1F .step"
+      (offset (xyz 10.3378 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module SolarCellParts:KXOB25-05X3F (layer Top) (tedit 5DADF49B) (tstamp 5DB20FDE)
@@ -938,6 +973,11 @@
       (net 26 "Net-(D4-Pad2)"))
     (pad 1 smd rect (at 0 0) (size 2 7.4) (layers Top F.Paste F.Mask)
       (net 25 "Net-(D3-Pad2)"))
+    (model "${CUSTOM_FOOTPRINT_DIR}/3d/KXOB22-12X1F .step"
+      (offset (xyz 10.4902 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module SolarCellParts:KXOB25-05X3F (layer Top) (tedit 5DADF49B) (tstamp 5DB20FD1)
@@ -960,6 +1000,11 @@
       (net 26 "Net-(D4-Pad2)"))
     (pad 1 smd rect (at 0 0) (size 2 7.4) (layers Top F.Paste F.Mask)
       (net 25 "Net-(D3-Pad2)"))
+    (model "${CUSTOM_FOOTPRINT_DIR}/3d/KXOB22-12X1F .step"
+      (offset (xyz 10.4902 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module custom-footprints:MICROSMP (layer Bottom) (tedit 0) (tstamp 5DB3E813)
@@ -1170,10 +1215,10 @@
       (net 10 BATT_N))
     (pad 1 smd rect (at -2.25 0 270) (size 0.25 1.1) (layers Bottom B.Paste B.Mask)
       (net 11 BATT_P))
-    (model XF2M-1015-1A.stp
-      (at (xyz 0 0 0))
+    (model ${CUSTOM_FOOTPRINT_DIR}/3d/XF2M-1015-1A.stp
+      (offset (xyz 0 -5.0038 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -1604,6 +1649,11 @@
       (net 16 "Net-(C10-Pad1)") (solder_mask_margin 0.0635))
     (pad 1 smd rect (at -1.47955 0) (size 1.4351 4.3942) (layers Bottom B.Paste B.Mask)
       (net 18 "Net-(L2-Pad1)") (solder_mask_margin 0.0635))
+    (model ${KISYS3DMOD}/Inductor_SMD.3dshapes/L_Wuerth_MAPI-4030.step
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 0.6))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module misc-circuits:LPS4018 (layer Bottom) (tedit 0) (tstamp 5DB3E672)
@@ -1623,6 +1673,11 @@
       (net 6 "Net-(L1-Pad2)") (solder_mask_margin 0.0635))
     (pad 1 smd rect (at -1.47955 0) (size 1.4351 4.3942) (layers Bottom B.Paste B.Mask)
       (net 8 VSOLAR) (solder_mask_margin 0.0635))
+    (model ${KISYS3DMOD}/Inductor_SMD.3dshapes/L_Wuerth_MAPI-4030.step
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 0.6))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer Bottom) (tedit 5B301BBE) (tstamp 5DB3E3FB)
