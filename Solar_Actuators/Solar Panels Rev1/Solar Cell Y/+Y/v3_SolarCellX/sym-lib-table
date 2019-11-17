@@ -5,4 +5,5 @@
   (lib (name mainboard-rescue)(type Legacy)(uri "C:/Users/thoma/Documents/_Stanford_Work/AA236/documentation/Solar_Actuators/Solar Panels Rev1/Solar Cell Y/+Y/v3_SolarCellX/mainboard-rescue.lib")(options "")(descr ""))
   (lib (name SolarZ-rescue)(type Legacy)(uri "C:/Users/thoma/Documents/_Stanford_Work/AA236/documentation/Solar_Actuators/Solar Panels Rev1/Solar Cell Y/+Y/v3_SolarCellX/SolarCellY-rescue.lib")(options "")(descr ""))
   (lib (name SolarX)(type Legacy)(uri "C:/Users/thoma/Documents/_Stanford_Work/AA236/documentation/Solar_Actuators/Solar Panels Rev1/Solar Cell Y/+Y/v3_SolarCellX/SolarCellY.lib")(options "")(descr ""))
+  (lib (name SolarCell+Y-rescue)(type Legacy)(uri ${KIPRJMOD}/SolarCell+Y-rescue.lib)(options "")(descr ""))
 )
