@@ -1,5 +1,5 @@
 (sym_lib_table
-  (lib (name misc-circuits-cache)(type Legacy)(uri "C:/Users/Chris Naughton/Desktop/School/F19/AA236/Solar Panel Designs/PocketQube/Solar Panels Rev1/Libraries/misc-circuits-cache.lib")(options "")(descr ""))
-  (lib (name SolarCellParts)(type Legacy)(uri "C:/Users/Chris Naughton/Desktop/School/F19/AA236/Solar Panel Designs/PocketQube/Solar Panels Rev1/Libraries/SolarCellParts.lib")(options "")(descr ""))
+  (lib (name misc-circuits-cache)(type Legacy)(uri ${KIPRJMOD}/Libraries/misc-circuits-cache.lib)(options "")(descr ""))
+  (lib (name SolarCellParts)(type Legacy)(uri ${KIPRJMOD}/Libraries/SolarCellParts.lib)(options "")(descr ""))
   (lib (name SolarCellZ_v1-rescue)(type Legacy)(uri ${KIPRJMOD}/SolarCellZ_v1-rescue.lib)(options "")(descr ""))
 )

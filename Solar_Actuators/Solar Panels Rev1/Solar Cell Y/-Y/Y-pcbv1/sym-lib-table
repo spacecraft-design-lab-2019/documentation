@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name solarpcd_lib)(type Legacy)(uri ${KIPRJMOD}/solarpcd_lib.lib)(options "")(descr ""))
+  (lib (name solarpcd-rescue)(type Legacy)(uri ${KIPRJMOD}/solarpcd-rescue.lib)(options "")(descr ""))
+)
