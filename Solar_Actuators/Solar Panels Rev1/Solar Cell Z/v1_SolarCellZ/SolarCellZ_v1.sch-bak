@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
 LIBS:SolarCellZ_v1-cache
-LIBS:misc-circuits-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -125,17 +124,6 @@ F 3 "" H 4990 1020 50  0001 C CNN
 	1    5050 900 
 	-1   0    0    1   
 $EndComp
-$Comp
-L SolarCellParts:SBDiode D1
-U 1 1 5DB1BFED
-P 900 4250
-F 0 "D1" V 804 4338 50  0000 L CNN
-F 1 "SBDiode" V 895 4338 50  0000 L CNN
-F 2 "SolarCellParts:SB Diode" H 780 4580 50  0001 C CNN
-F 3 "" H 840 4370 50  0001 C CNN
-	1    900  4250
-	0    1    1    0   
-$EndComp
 Connection ~ 1850 2350
 Wire Wire Line
 	1850 900  2240 900 
@@ -161,11 +149,6 @@ Wire Wire Line
 	5310 900  5800 900 
 Wire Wire Line
 	1850 2350 900  2350
-Wire Wire Line
-	900  2350 900  3990
-Connection ~ 900  3990
-Wire Wire Line
-	900  3990 900  4000
 Wire Wire Line
 	3150 2350 4500 2350
 Wire Wire Line
@@ -215,7 +198,7 @@ U 1 1 5DB12088
 P 8050 4750
 F 0 "J1" H 8500 5015 50  0000 C CNN
 F 1 "XF2M-1015-1A" H 8500 4924 50  0000 C CNN
-F 2 "custom-footprints:XF2M-1015-1A" H 8800 4850 50  0001 L CNN
+F 2 "misc-circuits:XF2M-1015-1A" H 8800 4850 50  0001 L CNN
 F 3 "" H 8800 4750 50  0001 L CNN
 F 4 "0.5mm Rotary backlock 10 way Omron XF2M Series 0.5mm Pitch 10 Way Right Angle SMT Female FPC Connector Locking Mechanism, Top and Bottom Contact" H 8800 4650 50  0001 L CNN "Description"
 F 5 "Omron Electronics" H 8800 4450 50  0001 L CNN "Manufacturer_Name"
@@ -377,39 +360,37 @@ Connection ~ 8400 3000
 Text GLabel 6850 3000 0    50   BiDi ~ 0
 BATT_P
 Wire Wire Line
-	8950 4750 9100 4750
-Text GLabel 9100 4750 2    50   Output ~ 0
+	8050 4750 7900 4750
+Text GLabel 7900 4750 0    50   Output ~ 0
 BATT_P
-Text GLabel 9100 4850 2    50   Output ~ 0
+Text GLabel 9100 4750 2    50   Output ~ 0
 BATT_N
 Wire Wire Line
-	9100 4850 8950 4850
+	9100 4750 8950 4750
 $Comp
 L power:GND #PWR07
 U 1 1 5DB779CC
-P 9100 5150
-F 0 "#PWR07" H 9100 4900 50  0001 C CNN
-F 1 "GND" H 9105 4977 50  0000 C CNN
-F 2 "" H 9100 5150 50  0001 C CNN
-F 3 "" H 9100 5150 50  0001 C CNN
-	1    9100 5150
+P 9500 5050
+F 0 "#PWR07" H 9500 4800 50  0001 C CNN
+F 1 "GND" H 9505 4877 50  0000 C CNN
+F 2 "" H 9500 5050 50  0001 C CNN
+F 3 "" H 9500 5050 50  0001 C CNN
+	1    9500 5050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8950 5150 9100 5150
 $Comp
 L power:+3V3 #PWR05
 U 1 1 5DB87DA5
-P 7900 5050
-F 0 "#PWR05" H 7900 4900 50  0001 C CNN
-F 1 "+3V3" V 7900 5250 50  0000 C CNN
-F 2 "" H 7900 5050 50  0001 C CNN
-F 3 "" H 7900 5050 50  0001 C CNN
-	1    7900 5050
-	0    -1   -1   0   
+P 9100 4950
+F 0 "#PWR05" H 9100 4800 50  0001 C CNN
+F 1 "+3V3" V 9100 5150 50  0000 C CNN
+F 2 "" H 9100 4950 50  0001 C CNN
+F 3 "" H 9100 4950 50  0001 C CNN
+	1    9100 4950
+	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8050 5050 7900 5050
+	8950 4950 9100 4950
 $Comp
 L SolarCellZ_v1-rescue:TSL2561-symbols-misc-circuits-rescue IC1
 U 1 1 5DB13ECD
@@ -508,43 +489,39 @@ Wire Wire Line
 Wire Wire Line
 	2000 6750 2250 6750
 NoConn ~ 3850 6350
-Text GLabel 7850 4850 0    50   BiDi ~ 0
+Text GLabel 9150 4850 2    50   BiDi ~ 0
 SCL1
 Wire Wire Line
-	7850 4850 8050 4850
-Text GLabel 7850 4750 0    50   BiDi ~ 0
+	9150 4850 8950 4850
+Text GLabel 7850 4850 0    50   BiDi ~ 0
 SDA1
 Wire Wire Line
-	7850 4750 8050 4750
+	7850 4850 8050 4850
 Text GLabel 7850 4950 0    50   BiDi ~ 0
 BURN1
 Wire Wire Line
 	7850 4950 8050 4950
-Text GLabel 9100 4950 2    50   BiDi ~ 0
+Text GLabel 9100 5150 2    50   BiDi ~ 0
 COIL_P
-Text GLabel 9100 5050 2    50   BiDi ~ 0
+Text GLabel 7850 5150 0    50   BiDi ~ 0
 COIL_N
 $Comp
 L power:GND #PWR06
 U 1 1 5DB7ADC7
-P 7900 5150
-F 0 "#PWR06" H 7900 4900 50  0001 C CNN
-F 1 "GND" H 7905 4977 50  0000 C CNN
-F 2 "" H 7900 5150 50  0001 C CNN
-F 3 "" H 7900 5150 50  0001 C CNN
-	1    7900 5150
+P 7400 5050
+F 0 "#PWR06" H 7400 4800 50  0001 C CNN
+F 1 "GND" H 7405 4877 50  0000 C CNN
+F 2 "" H 7400 5050 50  0001 C CNN
+F 3 "" H 7400 5050 50  0001 C CNN
+	1    7400 5050
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	8050 5150 7900 5150
 Wire Wire Line
 	4100 6450 3850 6450
 Text GLabel 4100 6450 2    50   BiDi ~ 0
 SDA1
 Text Notes 7800 4350 0    100  ~ 0
 Flat Flex Connector
-Text GLabel 900  4400 3    50   BiDi ~ 0
-VSolar
 $Comp
 L power:GND #PWR03
 U 1 1 5DCC236A
@@ -557,9 +534,30 @@ F 3 "" H 5800 2350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	10250 4950 10250 5050
+	7850 5150 8050 5150
 Wire Wire Line
-	8950 4950 10250 4950
+	9100 5150 8950 5150
 Wire Wire Line
-	8950 5050 10250 5050
+	8950 5050 9500 5050
+Wire Wire Line
+	7400 5050 8050 5050
+Wire Wire Line
+	900  2350 900  4000
+Text GLabel 900  4000 3    50   BiDi ~ 0
+VSOLAR
+Wire Wire Line
+	4900 4600 5350 4600
+Text Label 5050 4600 0    50   ~ 0
+coil
+$Comp
+L SolarCellZ_v1-rescue:0OHM-0603-1_10W-5%-misc-circuits-cache-misc-circuits-rescue R?
+U 1 1 5DB6156D
+P 4900 4800
+F 0 "R?" V 4961 4732 70  0000 R CNN
+F 1 "0" V 4840 4732 70  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 4900 4800 50  0001 C CNN
+F 3 "" H 4900 4800 50  0001 C CNN
+	1    4900 4800
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

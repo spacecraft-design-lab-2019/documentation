@@ -1,0 +1,16 @@
+(module LPS4018 (layer F.Cu) (tedit 0)
+  (descr "Coilcraft LPS4018 series inductor package.")
+  (fp_text reference L4 (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1.27 1.27) (thickness 0.15)))
+  )
+  (fp_text value 10uH-LPS4018-103MR (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1.27 1.27) (thickness 0.15)))
+  )
+  (fp_circle (center -2.54 0) (end -2.413 0) (layer F.SilkS) (width 0.254))
+  (fp_line (start 0.67945 -1.94945) (end -0.67945 -1.94945) (layer F.SilkS) (width 0.127))
+  (fp_line (start -0.67945 1.94945) (end 0.67945 1.94945) (layer F.SilkS) (width 0.127))
+  (pad 2 smd rect (at 1.47955 0) (size 1.4351 4.3942) (layers F.Cu F.Paste F.Mask)
+    (solder_mask_margin 0.0635))
+  (pad 1 smd rect (at -1.47955 0) (size 1.4351 4.3942) (layers F.Cu F.Paste F.Mask)
+    (solder_mask_margin 0.0635))
+)
