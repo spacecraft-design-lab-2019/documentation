@@ -11,7 +11,7 @@
 
   (page A4)
   (layers
-    (0 Top signal hide)
+    (0 Top signal)
     (1 In1.Cu signal hide)
     (2 In2.Cu signal hide)
     (3 In3.Cu signal hide)
@@ -411,6 +411,11 @@
       (net 2 "Net-(D1-Pad1)"))
     (pad 2 smd rect (at 21 0 180) (size 2 7.4) (layers Top F.Paste F.Mask)
       (net 1 "Net-(D1-Pad2)"))
+    (model SolarCell.step
+      (offset (xyz 10.5 0 2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
   )
 
   (module custom-footprints:balun0603 (layer Bottom) (tedit 5D164977) (tstamp 5DB654AD)
@@ -616,6 +621,11 @@
       (net 2 "Net-(D1-Pad1)"))
     (pad 2 smd rect (at 21 0) (size 2 7.4) (layers Top F.Paste F.Mask)
       (net 1 "Net-(D1-Pad2)"))
+    (model SolarCell.step
+      (offset (xyz 10.5 0 2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
   )
 
   (module SolarCellParts:KXOB25-05X3F (layer Top) (tedit 5DADF49B) (tstamp 5DB2101F)
@@ -638,6 +648,11 @@
       (net 6 GND))
     (pad 1 smd rect (at 0 0 270) (size 2 7.4) (layers Top F.Paste F.Mask)
       (net 1 "Net-(D1-Pad2)"))
+    (model SolarCell.step
+      (offset (xyz 10.5 0 1.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
   )
 
   (module SolarCellParts:KXOB25-05X3F (layer Top) (tedit 5DADF49B) (tstamp 5DB21012)
@@ -660,6 +675,11 @@
       (net 6 GND))
     (pad 1 smd rect (at 0 0 90) (size 2 7.4) (layers Top F.Paste F.Mask)
       (net 1 "Net-(D1-Pad2)"))
+    (model SolarCell.step
+      (offset (xyz 10.5 0 2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
   )
 
   (module SolarCellParts:KXOB25-05X3F (layer Top) (tedit 5DADF49B) (tstamp 5DB21005)
@@ -682,6 +702,11 @@
       (net 6 GND))
     (pad 1 smd rect (at 0 0 270) (size 2 7.4) (layers Top F.Paste F.Mask)
       (net 1 "Net-(D1-Pad2)"))
+    (model SolarCell.step
+      (offset (xyz 10.5 0 2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
   )
 
   (module SolarCellParts:KXOB25-05X3F (layer Top) (tedit 5DADF49B) (tstamp 5DB298DE)
@@ -704,6 +729,11 @@
       (net 6 GND))
     (pad 1 smd rect (at 0 0 90) (size 2 7.4) (layers Top F.Paste F.Mask)
       (net 1 "Net-(D1-Pad2)"))
+    (model SolarCell.step
+      (offset (xyz 10.5 0 2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
   )
 
   (module SolarCellParts:KXOB25-05X3F (layer Top) (tedit 5DADF49B) (tstamp 5DB20FEB)
@@ -726,6 +756,11 @@
       (net 1 "Net-(D1-Pad2)"))
     (pad 1 smd rect (at 0 0) (size 2 7.4) (layers Top F.Paste F.Mask)
       (net 2 "Net-(D1-Pad1)"))
+    (model SolarCell.step
+      (offset (xyz 10.5 0 2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
   )
 
   (module SolarCellParts:KXOB25-05X3F (layer Top) (tedit 5DADF49B) (tstamp 5DB20FDE)
@@ -748,6 +783,11 @@
       (net 1 "Net-(D1-Pad2)"))
     (pad 1 smd rect (at 0 0 180) (size 2 7.4) (layers Top F.Paste F.Mask)
       (net 2 "Net-(D1-Pad1)"))
+    (model SolarCell.step
+      (offset (xyz 10.5 0 2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
   )
 
   (module "SolarCellParts:SB Diode" (layer Top) (tedit 5DADF414) (tstamp 5DB20F79)
