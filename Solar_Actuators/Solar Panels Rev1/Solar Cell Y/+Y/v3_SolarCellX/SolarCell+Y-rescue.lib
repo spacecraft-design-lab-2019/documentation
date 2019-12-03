@@ -1,6 +1,133 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# HHM17139B2-symbols
+#
+DEF HHM17139B2-symbols U 0 40 Y Y 1 F N
+F0 "U" 0 200 50 H V C CNN
+F1 "HHM17139B2-symbols" 0 -200 50 H V C CNN
+F2 "custom-footprints:balun0603" 0 -300 50 H I C CNN
+F3 "" -350 -100 50 H I C CNN
+DRAW
+S -500 150 500 -150 0 1 0 N
+X Unbalanced 1 -600 100 100 R 50 50 1 1 I
+X GND 2 -600 -100 100 R 50 50 1 1 I
+X Balanced1 3 600 100 100 L 50 50 1 1 I
+X Balanced2 4 600 0 100 L 50 50 1 1 I
+X GND 5 600 -100 100 L 50 50 1 1 I
+X NC 6 600 -100 100 L 50 50 1 1 I N
+ENDDRAW
+ENDDEF
+#
+# IRLML2803TRPBF-mainboard-misc-circuits-rescue-SolarCellZ_v1-rescue
+#
+DEF IRLML2803TRPBF-mainboard-misc-circuits-rescue-SolarCellZ_v1-rescue Q 0 40 Y Y 1 L N
+F0 "Q" -450 50 59 H V L TNN
+F1 "IRLML2803TRPBF-mainboard-misc-circuits-rescue-SolarCellZ_v1-rescue" -450 150 59 H V L TNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 100 -100 10 1 0 0 N
+C 100 100 10 1 0 0 N
+P 2 1 0 0 0 100 0 -100 N
+P 2 1 0 0 30 -100 30 -125 N
+P 2 1 0 0 30 -75 30 -100 N
+P 2 1 0 0 30 0 30 -30 N
+P 2 1 0 0 30 0 100 0 N
+P 2 1 0 0 30 30 30 0 N
+P 2 1 0 0 30 100 30 75 N
+P 2 1 0 0 30 100 150 100 N
+P 2 1 0 0 30 125 30 100 N
+P 2 1 0 0 100 -100 30 -100 N
+P 2 1 0 0 100 -100 150 -100 N
+P 2 1 0 0 100 0 100 -100 N
+P 2 1 0 0 130 20 150 20 N
+P 2 1 0 0 150 -20 150 -100 N
+P 2 1 0 0 150 20 150 -20 N
+P 2 1 0 0 150 20 170 20 N
+P 2 1 0 0 150 100 150 20 N
+P 3 1 0 0 40 0 80 20 80 -20 F
+P 3 1 0 0 150 20 130 -10 170 -10 F
+X G 1 -100 -100 100 R 0 0 1 0 P
+X S 2 100 -200 100 U 0 0 1 0 P
+X D 3 100 200 100 D 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# MSS1P4-M3_89A-symbols
+#
+DEF MSS1P4-M3_89A-symbols D 0 30 Y Y 1 F N
+F0 "D" 400 350 50 H V L BNN
+F1 "MSS1P4-M3_89A-symbols" 400 250 50 H V L BNN
+F2 "MICROSMP" 400 150 50 H I L BNN
+F3 "https://www.vishay.com/docs/89019/mss1p4.pdf" 400 50 50 H I L BNN
+F4 "Vishay MSS1P4-M3/89A SMT Schottky Diode, 40V 1A, 2-Pin uSMP" 400 -50 50 H I L BNN "Description"
+F5 "Vishay" 400 -250 50 H I L BNN "Manufacturer_Name"
+F6 "MSS1P4-M3/89A" 400 -350 50 H I L BNN "Manufacturer_Part_Number"
+F7 "625-MSS1P4-M3" 400 -450 50 H I L BNN "Mouser Part Number"
+F8 "https://www.mouser.com/Search/Refine.aspx?Keyword=625-MSS1P4-M3" 400 -550 50 H I L BNN "Mouser Price/Stock"
+F9 "7103068P" 400 -650 50 H I L BNN "RS Part Number"
+F10 "http://uk.rs-online.com/web/p/products/7103068P" 400 -750 50 H I L BNN "RS Price/Stock"
+F11 "70217632" 400 -850 50 H I L BNN "Allied_Number"
+F12 "https://www.alliedelec.com/general-semiconductor-vishay-mss1p4-m3-89a/70217632/" 400 -950 50 H I L BNN "Allied Price/Stock"
+DRAW
+P 2 0 1 6 160 -100 200 -80 N
+P 2 0 1 6 200 80 200 -80 N
+P 2 0 1 6 200 80 240 100 N
+P 4 0 1 6 200 0 400 100 400 -100 200 0 N
+X ~ 1 0 0 200 R 50 50 0 0 U
+X ~ 2 600 0 200 L 50 50 0 0 U
+ENDDRAW
+ENDDEF
+#
+# NDS8434-symbols-misc-circuits-rescue-SolarCellZ_v1-rescue
+#
+DEF NDS8434-symbols-misc-circuits-rescue-SolarCellZ_v1-rescue U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H I L BNN
+F1 "NDS8434-symbols-misc-circuits-rescue-SolarCellZ_v1-rescue" 0 0 50 H I L BNN
+F2 "custom-footprints:NDS8434" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "ON Semiconductor" 0 0 50 H I L BNN
+F5 "NDS8434" 0 0 50 H I L BNN "Field7"
+F6 "SO-8 ON Semiconductor" 0 0 50 H I L BNN "Field8"
+DRAW
+P 2 0 0 10 -300 -400 -300 400 N
+P 2 0 0 10 -300 400 300 400 N
+P 2 0 0 10 300 -400 -300 -400 N
+P 2 0 0 10 300 400 300 -400 N
+X Source 1 -500 300 200 R 40 40 0 0 B
+X Source 2 -500 100 200 R 40 40 0 0 B
+X Source 3 -500 -100 200 R 40 40 0 0 B
+X Gate 4 -500 -300 200 R 40 40 0 0 B
+X Drain 5 500 300 200 L 40 40 0 0 B
+X Drain 6 500 100 200 L 40 40 0 0 B
+X Drain 7 500 -300 200 L 40 40 0 0 B
+X Drain 8 500 -100 200 L 40 40 0 0 B
+ENDDRAW
+ENDDEF
+#
+# RESISTOR0603-mainboard-misc-circuits-rescue-SolarCellZ_v1-rescue
+#
+DEF RESISTOR0603-mainboard-misc-circuits-rescue-SolarCellZ_v1-rescue R 0 40 Y Y 1 L N
+F0 "R" 0 60 70 H V C BNN
+F1 "RESISTOR0603-mainboard-misc-circuits-rescue-SolarCellZ_v1-rescue" 0 -60 70 H V C TNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -100 0 -85 40 N
+P 2 1 0 0 -85 40 -60 -40 N
+P 2 1 0 0 -60 -40 -35 40 N
+P 2 1 0 0 -35 40 -10 -40 N
+P 2 1 0 0 -10 -40 15 40 N
+P 2 1 0 0 15 40 40 -40 N
+P 2 1 0 0 40 -40 65 40 N
+P 2 1 0 0 65 40 90 -40 N
+P 2 1 0 0 90 -40 100 0 N
+X 1 1 -200 0 100 R 0 0 1 0 P
+X 2 2 200 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
 # SBDiode-SolarCellParts
 #
 DEF SBDiode-SolarCellParts D 0 0 Y Y 1 F N
@@ -30,6 +157,23 @@ DRAW
 S -550 -200 550 200 0 1 0 N
 X V+ 1 -650 0 100 R 50 50 1 1 B
 X V- 2 650 0 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# U.FL-R-SMT-1-symbols
+#
+DEF U.FL-R-SMT-1-symbols J 0 30 Y Y 1 F N
+F0 "J" -300 450 50 H V L CNN
+F1 "U.FL-R-SMT-1-symbols" -300 350 50 H V L CNN
+F2 "U.FL-R-SMT-1" -300 250 50 H I L CNN
+F3 "https://www.hirose.co.jp/cataloge_hp/ed_UFL_20141014.pdf" -300 150 50 H I L CNN
+F4 "Hirose" -300 -150 50 H I L CNN "Manufacturer_Name"
+F5 "U.FL-R-SMT-1" -300 -250 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 -200 100 200 100 200 -100 -200 -100 -200 100 N
+X GND 1 100 -300 200 U 50 50 0 0 U
+X 2 2 100 -300 200 U 50 50 0 0 U N
+X ANT 3 -400 0 200 R 50 50 0 0 U
 ENDDRAW
 ENDDEF
 #
