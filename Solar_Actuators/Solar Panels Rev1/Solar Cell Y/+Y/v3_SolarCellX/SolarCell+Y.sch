@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
 LIBS:SolarCell+Y-cache
-LIBS:SolarCellZ_v1-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -539,7 +538,7 @@ Wire Wire Line
 Wire Wire Line
 	8750 4950 9100 4950
 $Comp
-L SolarCellZ_v1-rescue:RESISTOR0603-mainboard-misc-circuits-rescue R7
+L SolarCell+Y-rescue:RESISTOR0603-mainboard-misc-circuits-rescue-SolarCellZ_v1-rescue R7
 U 1 1 5DB28BB7
 P 8750 5150
 AR Path="/5DB28BB7" Ref="R7"  Part="1" 
@@ -552,7 +551,7 @@ F 3 "" H 8750 5150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SolarCellZ_v1-rescue:RESISTOR0603-mainboard-misc-circuits-rescue R5
+L SolarCell+Y-rescue:RESISTOR0603-mainboard-misc-circuits-rescue-SolarCellZ_v1-rescue R5
 U 1 1 5DB28BC9
 P 8050 5250
 AR Path="/5DB28BC9" Ref="R5"  Part="1" 
@@ -565,7 +564,7 @@ F 3 "" H 8050 5250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L SolarCellZ_v1-rescue:RESISTOR0603-mainboard-misc-circuits-rescue R6
+L SolarCell+Y-rescue:RESISTOR0603-mainboard-misc-circuits-rescue-SolarCellZ_v1-rescue R6
 U 1 1 5DB28BCF
 P 8250 5050
 AR Path="/5DB28BCF" Ref="R6"  Part="1" 
@@ -578,7 +577,7 @@ F 3 "" H 8250 5050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L SolarCellZ_v1-rescue:IRLML2803TRPBF-mainboard-misc-circuits-rescue Q1
+L SolarCell+Y-rescue:IRLML2803TRPBF-mainboard-misc-circuits-rescue-SolarCellZ_v1-rescue Q1
 U 1 1 5DB28BE3
 P 8550 5350
 AR Path="/5DB28BE3" Ref="Q1"  Part="1" 
@@ -595,7 +594,7 @@ $EndComp
 Text Notes 7350 4500 0    85   ~ 0
 Burn Wire Control (Antenna Depolyment)
 $Comp
-L SolarCellZ_v1-rescue:NDS8434-symbols-misc-circuits-rescue U?
+L SolarCell+Y-rescue:NDS8434-symbols-misc-circuits-rescue-SolarCellZ_v1-rescue U?
 U 1 1 5DB28C34
 P 9600 5250
 AR Path="/5CEC5A72/5DB28C34" Ref="U?"  Part="1" 
