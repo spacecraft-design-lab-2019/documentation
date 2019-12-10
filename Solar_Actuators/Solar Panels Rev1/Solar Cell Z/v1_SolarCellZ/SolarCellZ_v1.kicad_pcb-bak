@@ -261,6 +261,11 @@
       (net 12 BATT_P))
     (pad 1 smd rect (at -1.905 -2.6162 270) (size 0.6096 2.2098) (layers Bottom B.Paste B.Mask)
       (net 12 BATT_P))
+    (model ${KISYS3DMOD}/Package_SO.3dshapes/SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.35x2.35mm.step
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (module Resistor_SMD:R_0402_1005Metric (layer Bottom) (tedit 5B301BBD) (tstamp 5DB40D92)
