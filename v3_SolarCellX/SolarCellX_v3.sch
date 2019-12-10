@@ -1,0 +1,1281 @@
+EESchema Schematic File Version 4
+LIBS:SolarCellX_v3-cache
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	4750 2450 4650 2450
+Text Label 4650 2450 2    50   ~ 0
+VOUT_EN
+Wire Wire Line
+	6850 3750 6850 3650
+Wire Wire Line
+	6850 3650 6850 3550
+Wire Wire Line
+	6850 3550 6850 3450
+Wire Wire Line
+	6850 3450 6850 3250
+Wire Wire Line
+	6850 3250 6850 3150
+Wire Wire Line
+	6850 3150 6750 3150
+Wire Wire Line
+	6750 3250 6850 3250
+Wire Wire Line
+	6750 3450 6850 3450
+Wire Wire Line
+	6750 3550 6850 3550
+Wire Wire Line
+	6750 3650 6850 3650
+Connection ~ 6850 3250
+Connection ~ 6850 3450
+Connection ~ 6850 3550
+Connection ~ 6850 3650
+Connection ~ 6850 3150
+Text Label 6850 3750 0    10   ~ 0
+GND
+Wire Wire Line
+	8450 2650 8050 2650
+Wire Wire Line
+	8050 2650 7650 2650
+Wire Wire Line
+	7650 2650 7650 2800
+Connection ~ 8450 2650
+Connection ~ 8050 2650
+Connection ~ 7650 2650
+Text Label 8850 2650 0    10   ~ 0
+GND
+Wire Wire Line
+	7700 2000 8050 2000
+Wire Wire Line
+	7700 1950 7700 2000
+Wire Wire Line
+	8050 1950 8050 2000
+Wire Wire Line
+	8050 2000 8400 2000
+Wire Wire Line
+	8400 2000 8400 1950
+Wire Wire Line
+	8400 2050 8400 2000
+Connection ~ 8050 2000
+Connection ~ 8400 2000
+Text Label 7700 2000 0    10   ~ 0
+GND
+Wire Wire Line
+	7350 1200 7700 1200
+Wire Wire Line
+	7700 1200 7700 1250
+Text Label 7350 1200 0    10   ~ 0
+GND
+Wire Wire Line
+	4750 2250 3750 2250
+Wire Wire Line
+	3750 2250 3750 2150
+Wire Wire Line
+	3400 2150 3400 2250
+Wire Wire Line
+	3400 2250 3750 2250
+Wire Wire Line
+	3050 2150 3050 2250
+Wire Wire Line
+	3050 2250 3400 2250
+Wire Wire Line
+	3050 2250 3050 2350
+Wire Wire Line
+	2700 2100 2700 2250
+Wire Wire Line
+	2700 2250 3050 2250
+Connection ~ 3750 2250
+Connection ~ 3400 2250
+Connection ~ 3050 2250
+Text Label 4750 2250 0    10   ~ 0
+GND
+Wire Wire Line
+	3250 4200 3250 4400
+Wire Wire Line
+	3250 4400 3400 4400
+Wire Wire Line
+	4500 4400 3900 4400
+Connection ~ 3900 4400
+Text Label 3250 4200 0    10   ~ 0
+GND
+Wire Wire Line
+	6750 2550 7500 2550
+Wire Wire Line
+	7500 2350 7650 2350
+Wire Wire Line
+	7650 2350 8050 2350
+Wire Wire Line
+	8050 2350 8450 2350
+Wire Wire Line
+	7500 2550 7500 2350
+Connection ~ 7650 2350
+Connection ~ 8050 2350
+Connection ~ 8450 2350
+Connection ~ 7500 2350
+Wire Wire Line
+	6900 2350 6750 2350
+Wire Wire Line
+	6850 2850 6850 2150
+Wire Wire Line
+	6850 2150 6750 2150
+Wire Wire Line
+	7200 3250 7200 2850
+Wire Wire Line
+	7200 2850 6850 2850
+Connection ~ 6850 2850
+Wire Wire Line
+	7350 1750 7350 1950
+Wire Wire Line
+	7350 1950 6750 1950
+Wire Wire Line
+	7700 1600 8050 1600
+Wire Wire Line
+	8050 1600 8400 1600
+Wire Wire Line
+	8400 1600 8400 1650
+Wire Wire Line
+	8050 1650 8050 1600
+Wire Wire Line
+	7700 1650 7700 1600
+Wire Wire Line
+	7350 1750 7350 1600
+Wire Wire Line
+	7350 1600 7700 1600
+Connection ~ 8050 1600
+Connection ~ 7700 1600
+Connection ~ 7350 1750
+Wire Wire Line
+	6750 1750 6950 1750
+Wire Wire Line
+	6750 1750 6750 1200
+Wire Wire Line
+	6750 1200 6950 1200
+Wire Wire Line
+	6650 1200 6750 1200
+Connection ~ 6750 1750
+Connection ~ 6750 1200
+Wire Wire Line
+	4750 1850 3750 1850
+Wire Wire Line
+	4650 1650 4750 1650
+Wire Wire Line
+	3250 3700 3250 3750
+Wire Wire Line
+	3250 3750 3250 3800
+Wire Wire Line
+	3250 3750 3700 3750
+Wire Wire Line
+	3700 3750 3700 3050
+Wire Wire Line
+	3700 3050 4750 3050
+Connection ~ 3250 3750
+Wire Wire Line
+	4500 3900 4500 3950
+Wire Wire Line
+	4500 3950 4500 4000
+Wire Wire Line
+	4500 3950 4700 3950
+Wire Wire Line
+	4700 3950 4700 3650
+Wire Wire Line
+	4700 3650 4750 3650
+Connection ~ 4500 3950
+Wire Wire Line
+	3900 3500 3900 3450
+Wire Wire Line
+	3900 3450 3900 3400
+Wire Wire Line
+	3900 3450 4750 3450
+Connection ~ 3900 3450
+Wire Wire Line
+	3900 3900 3900 3950
+Wire Wire Line
+	3900 3950 3900 4000
+Wire Wire Line
+	3900 3950 4050 3950
+Wire Wire Line
+	4050 3950 4050 3250
+Wire Wire Line
+	4050 3250 4750 3250
+Connection ~ 3900 3950
+Wire Wire Line
+	4500 3500 4500 2850
+Wire Wire Line
+	4750 2850 4500 2850
+Wire Wire Line
+	4500 2850 3900 2850
+Wire Wire Line
+	3900 2850 3250 2850
+Wire Wire Line
+	3250 2850 3250 3300
+Wire Wire Line
+	3900 3000 3900 2850
+Connection ~ 3900 2850
+Connection ~ 4500 2850
+Wire Wire Line
+	4750 2650 4650 2650
+Text Label 4650 2650 2    50   ~ 0
+VBAT_OK
+Wire Wire Line
+	6250 1200 3900 1200
+Wire Wire Line
+	2350 1650 2700 1650
+Wire Wire Line
+	4050 1650 3900 1650
+Wire Wire Line
+	3900 1650 3400 1650
+Wire Wire Line
+	3400 1650 3400 1850
+Wire Wire Line
+	3050 1850 3050 1650
+Wire Wire Line
+	3050 1650 3400 1650
+Wire Wire Line
+	2700 1900 2700 1650
+Wire Wire Line
+	2700 1650 3050 1650
+Wire Wire Line
+	3900 1200 3900 1650
+Wire Wire Line
+	3900 1650 3900 2050
+Wire Wire Line
+	3900 2050 4750 2050
+Connection ~ 3400 1650
+Connection ~ 3050 1650
+Connection ~ 2700 1650
+Connection ~ 3900 1650
+Text Notes 6400 1050 0    50   ~ 0
+DNI
+Text Notes 2550 2400 0    70   ~ 0
+ZENER
+Wire Notes Line
+	4300 3500 4650 3500
+Wire Notes Line
+	4650 3500 4650 5000
+Wire Notes Line
+	4650 5000 4300 5000
+Wire Notes Line
+	4300 5000 4300 3500
+Text Notes 4350 4950 0    70   ~ 0
+VOUT\n3.31
+Text Notes 6950 1550 0    70   ~ 0
+80% MPPT 
+Wire Notes Line
+	3000 3300 3550 3300
+Wire Notes Line
+	3550 3300 3550 5000
+Wire Notes Line
+	3550 5000 3000 5000
+Wire Notes Line
+	3000 5000 3000 3300
+Wire Notes Line
+	3650 3000 4200 3000
+Wire Notes Line
+	4200 3000 4200 5000
+Wire Notes Line
+	4200 5000 3650 5000
+Wire Notes Line
+	3650 5000 3650 3000
+Text Notes 3700 4950 0    70   ~ 0
+VBAT_OK\nON: 3.51V\nOFF: 3.42V
+Text Notes 5600 3800 0    50   ~ 0
+Imin=280uA
+Text Notes 1250 1950 0    70   ~ 0
+External\nPower Source\nInput\n(Solar)
+Wire Notes Line
+	6150 800  7450 800 
+Wire Notes Line
+	7450 800  7450 1400
+Wire Notes Line
+	7450 1400 6150 1400
+Wire Notes Line
+	6150 1400 6150 800 
+Text Notes 8450 3500 0    70   ~ 0
+External energy storage\nInput/Output
+Text Notes 5450 1550 0    70   ~ 0
+BQ25570RGRR
+Text Notes 4600 850  0    100  ~ 0
+Energy Harvesting IC
+$Comp
+L power:GND #PWR08
+U 1 1 5DAA5ACA
+P 6850 3750
+F 0 "#PWR08" H 6850 3500 50  0001 C CNN
+F 1 "GND" H 6855 3577 50  0000 C CNN
+F 2 "" H 6850 3750 50  0001 C CNN
+F 3 "" H 6850 3750 50  0001 C CNN
+	1    6850 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5DAA6E33
+P 3400 4400
+F 0 "#PWR04" H 3400 4150 50  0001 C CNN
+F 1 "GND" H 3405 4227 50  0000 C CNN
+F 2 "" H 3400 4400 50  0001 C CNN
+F 3 "" H 3400 4400 50  0001 C CNN
+	1    3400 4400
+	1    0    0    -1  
+$EndComp
+Connection ~ 3400 4400
+Wire Wire Line
+	3400 4400 3900 4400
+$Comp
+L power:GND #PWR03
+U 1 1 5DAA70FF
+P 3050 2350
+F 0 "#PWR03" H 3050 2100 50  0001 C CNN
+F 1 "GND" H 3055 2177 50  0000 C CNN
+F 2 "" H 3050 2350 50  0001 C CNN
+F 3 "" H 3050 2350 50  0001 C CNN
+	1    3050 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 5DAA8193
+P 7700 1250
+F 0 "#PWR010" H 7700 1000 50  0001 C CNN
+F 1 "GND" H 7705 1077 50  0000 C CNN
+F 2 "" H 7700 1250 50  0001 C CNN
+F 3 "" H 7700 1250 50  0001 C CNN
+	1    7700 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR09
+U 1 1 5DAA84BE
+P 7650 2800
+F 0 "#PWR09" H 7650 2550 50  0001 C CNN
+F 1 "GND" H 7655 2627 50  0000 C CNN
+F 2 "" H 7650 2800 50  0001 C CNN
+F 3 "" H 7650 2800 50  0001 C CNN
+	1    7650 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR011
+U 1 1 5DAAA90A
+P 8400 2050
+F 0 "#PWR011" H 8400 1800 50  0001 C CNN
+F 1 "GND" H 8405 1877 50  0000 C CNN
+F 2 "" H 8400 2050 50  0001 C CNN
+F 3 "" H 8400 2050 50  0001 C CNN
+	1    8400 2050
+	1    0    0    -1  
+$EndComp
+Text Label 2750 2250 0    50   ~ 0
+GND
+Text Notes 3050 4950 0    70   ~ 0
+VBAT_OV\n4.2V
+Text Notes 2950 2800 0    50   ~ 0
+Sets of resistor dividers should = 13MOhm
+Text Notes 4700 4850 0    50   ~ 0
+VOUT=1.21V*((ROUT2+ROUT1)/ROUT1)
+Wire Wire Line
+	7600 3250 8100 3250
+Text GLabel 1600 3050 0    50   Input ~ 0
+VOUT_EN
+Wire Wire Line
+	1600 3050 1850 3050
+$Comp
+L power:GND #PWR01
+U 1 1 5DB2F2A4
+P 1850 3450
+F 0 "#PWR01" H 1850 3200 50  0001 C CNN
+F 1 "GND" H 1855 3277 50  0000 C CNN
+F 2 "" H 1850 3450 50  0001 C CNN
+F 3 "" H 1850 3450 50  0001 C CNN
+	1    1850 3450
+	1    0    0    -1  
+$EndComp
+Text GLabel 2500 3050 2    50   Input ~ 0
+VBAT_OK
+Wire Wire Line
+	2500 3050 2250 3050
+Wire Wire Line
+	1850 3150 1850 3050
+Connection ~ 1850 3050
+Text GLabel 8100 3250 2    50   Output ~ 0
+BATT_P
+Text GLabel 8100 3550 2    50   Output ~ 0
+BATT_N
+Wire Wire Line
+	8100 3550 7600 3550
+Wire Wire Line
+	7200 3550 6850 3550
+Text Label 6850 2650 3    50   ~ 0
+VBAT
+Text GLabel 2350 1650 0    50   BiDi ~ 0
+VSOLAR
+Text Notes 6300 950  0    70   ~ 0
+MPPT Set Resistors 
+$Comp
+L SolarCellX_v3-rescue:4.7UF0603-misc-circuits-cache-misc-circuits-rescue C3
+U 1 1 F2F2F93C
+P 3400 2050
+F 0 "C3" H 3508 2161 70  0000 L CNN
+F 1 "4.7uF" H 3508 2040 70  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3400 2050 50  0001 C CNN
+F 3 "" H 3400 2050 50  0001 C CNN
+	1    3400 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L SolarCellX_v3-rescue:0.1UF-0603-25V-(+80_-20%)-misc-circuits-cache-misc-circuits-rescue C10
+U 1 1 8451312A
+P 8050 2550
+F 0 "C10" H 8158 2661 70  0000 L CNN
+F 1 "0.1uF" H 8158 2540 70  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8050 2550 50  0001 C CNN
+F 3 "" H 8050 2550 50  0001 C CNN
+	1    8050 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L SolarCellX_v3-rescue:0.1UF-0603-25V-(+80_-20%)-misc-circuits-cache-misc-circuits-rescue C2
+U 1 1 A7E76009
+P 3050 2050
+F 0 "C2" H 3158 2161 70  0000 L CNN
+F 1 "0.1uF" H 3158 2040 70  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3050 2050 50  0001 C CNN
+F 3 "" H 3050 2050 50  0001 C CNN
+	1    3050 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L SolarCellX_v3-rescue:10NF-0603-50V-10%-misc-circuits-cache-misc-circuits-rescue C4
+U 1 1 8CC800AB
+P 3750 2050
+F 0 "C4" H 3858 2161 70  0000 L CNN
+F 1 "10nF" H 3858 2040 70  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3750 2050 50  0001 C CNN
+F 3 "" H 3750 2050 50  0001 C CNN
+	1    3750 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L SolarCellX_v3-rescue:22UF-0805-6.3V-20%-misc-circuits-cache-misc-circuits-rescue C7
+U 1 1 9549B0A9
+P 7650 2550
+F 0 "C7" H 7758 2661 70  0000 L CNN
+F 1 "22uF" H 7758 2540 70  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7650 2550 50  0001 C CNN
+F 3 "" H 7650 2550 50  0001 C CNN
+	1    7650 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L SolarCellX_v3-rescue:DIODE-SOD523-misc-circuits-cache-misc-circuits-rescue D1
+U 1 1 11469583
+P 2700 2000
+F 0 "D1" H 2650 1819 59  0000 L BNN
+F 1 "SDM20U40-7" H 2400 2059 59  0000 L BNN
+F 2 "custom-footprints:MICROSMP" H 2700 2000 50  0001 C CNN
+F 3 "" H 2700 2000 50  0001 C CNN
+	1    2700 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SolarCellX_v3-rescue:BQ25570RGRR-misc-circuits-cache-misc-circuits-rescue U2
+U 1 1 C5A3CDC2
+P 5750 2650
+F 0 "U2" H 5714 2359 69  0000 L BNN
+F 1 "Value" H 5539 2609 69  0001 L BNN
+F 2 "custom-footprints:NDS8434" H 5750 2650 50  0001 C CNN
+F 3 "" H 5750 2650 50  0001 C CNN
+	1    5750 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L SolarCellX_v3-rescue:0.1UF-0603-25V-(+80_-20%)-misc-circuits-cache-misc-circuits-rescue C12
+U 1 1 4B046222
+P 8450 2550
+F 0 "C12" H 8558 2661 70  0000 L CNN
+F 1 "100uF" H 8558 2540 70  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8450 2550 50  0001 C CNN
+F 3 "" H 8450 2550 50  0001 C CNN
+	1    8450 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L SolarCellX_v3-rescue:0.1UF-0603-25V-(+80_-20%)-misc-circuits-cache-misc-circuits-rescue C14
+U 1 1 E304C1D9
+P 10000 2550
+F 0 "C14" H 10108 2661 70  0000 L CNN
+F 1 "100uF" H 10108 2540 70  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 10000 2550 50  0001 C CNN
+F 3 "" H 10000 2550 50  0001 C CNN
+	1    10000 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L SolarCellX_v3-rescue:0.1UF-0603-25V-(+80_-20%)-misc-circuits-cache-misc-circuits-rescue C13
+U 1 1 46EAFDFE
+P 9500 2550
+F 0 "C13" H 9608 2661 70  0000 L CNN
+F 1 "0.1uF" H 9608 2540 70  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 9500 2550 50  0001 C CNN
+F 3 "" H 9500 2550 50  0001 C CNN
+	1    9500 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L SolarCellX_v3-rescue:0OHM-0603-1_10W-5%-misc-circuits-cache-misc-circuits-rescue R17
+U 1 1 54650AAC
+P 7400 3250
+F 0 "R17" H 7400 3310 70  0000 C BNN
+F 1 "0" H 7400 3190 70  0000 C TNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 7400 3250 50  0001 C CNN
+F 3 "" H 7400 3250 50  0001 C CNN
+	1    7400 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L SolarCellX_v3-rescue:0.1UF-0603-25V-(+80_-20%)-misc-circuits-cache-misc-circuits-rescue C6
+U 1 1 88E586DF
+P 6850 3050
+F 0 "C6" H 6958 3161 70  0000 L CNN
+F 1 "100uF" H 6958 3040 70  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6850 3050 50  0001 C CNN
+F 3 "" H 6850 3050 50  0001 C CNN
+	1    6850 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L SolarCellX_v3-rescue:0OHM-0603-1_10W-5%-misc-circuits-cache-misc-circuits-rescue R16
+U 1 1 E070716E
+P 7150 1750
+F 0 "R16" H 7150 1810 70  0000 C BNN
+F 1 "0" H 7150 1690 70  0000 C TNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 7150 1750 50  0001 C CNN
+F 3 "" H 7150 1750 50  0001 C CNN
+	1    7150 1750
+	-1   0    0    1   
+$EndComp
+$Comp
+L SolarCellX_v3-rescue:4.7UF0603-misc-circuits-cache-misc-circuits-rescue C8
+U 1 1 D994DAD3
+P 7700 1850
+F 0 "C8" H 7808 1961 70  0000 L CNN
+F 1 "4.7uF" H 7808 1840 70  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7700 1850 50  0001 C CNN
+F 3 "" H 7700 1850 50  0001 C CNN
+	1    7700 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L SolarCellX_v3-rescue:0.1UF-0603-25V-(+80_-20%)-misc-circuits-cache-misc-circuits-rescue C9
+U 1 1 05A8BE12
+P 8050 1850
+F 0 "C9" H 8158 1961 70  0000 L CNN
+F 1 "0.1uF" H 8158 1840 70  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8050 1850 50  0001 C CNN
+F 3 "" H 8050 1850 50  0001 C CNN
+	1    8050 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L SolarCellX_v3-rescue:0.1UF-0603-25V-(+80_-20%)-misc-circuits-cache-misc-circuits-rescue C11
+U 1 1 88B3C59D
+P 8400 1850
+F 0 "C11" H 8508 1961 70  0000 L CNN
+F 1 "100uF" H 8508 1840 70  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8400 1850 50  0001 C CNN
+F 3 "" H 8400 1850 50  0001 C CNN
+	1    8400 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L SolarCellX_v3-rescue:0OHM-0603-1_10W-5%-misc-circuits-cache-misc-circuits-rescue R15
+U 1 1 9B008E36
+P 7150 1200
+F 0 "R15" H 7150 1260 70  0000 C BNN
+F 1 "0" H 7150 1140 70  0000 C TNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 7150 1200 50  0001 C CNN
+F 3 "" H 7150 1200 50  0001 C CNN
+	1    7150 1200
+	-1   0    0    1   
+$EndComp
+$Comp
+L SolarCellX_v3-rescue:0OHM-0603-1_10W-5%-misc-circuits-cache-misc-circuits-rescue R14
+U 1 1 A14F4B35
+P 6450 1200
+F 0 "R14" H 6450 1260 70  0000 C BNN
+F 1 "0" H 6450 1140 70  0000 C TNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 6450 1200 50  0001 C CNN
+F 3 "" H 6450 1200 50  0001 C CNN
+F 4 "DNI" H 6450 1200 50  0001 C CNN "DNI"
+	1    6450 1200
+	-1   0    0    1   
+$EndComp
+$Comp
+L SolarCellX_v3-rescue:1MOHM-0603-1_4W-5%-misc-circuits-cache-misc-circuits-rescue R8
+U 1 1 D0D1B1DA
+P 3900 3700
+F 0 "R8" H 3900 3760 70  0000 C BNN
+F 1 "8.25M" H 3900 3640 70  0000 C TNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3900 3700 50  0001 C CNN
+F 3 "" H 3900 3700 50  0001 C CNN
+	1    3900 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SolarCellX_v3-rescue:1MOHM-0603-1_4W-5%-misc-circuits-cache-misc-circuits-rescue R10
+U 1 1 1DFCDDBB
+P 4500 3700
+F 0 "R10" H 4500 3760 70  0000 C BNN
+F 1 "8.25M" H 4500 3640 70  0000 C TNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 4500 3700 50  0001 C CNN
+F 3 "" H 4500 3700 50  0001 C CNN
+	1    4500 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SolarCellX_v3-rescue:1MOHM-0603-1_4W-5%-misc-circuits-cache-misc-circuits-rescue R9
+U 1 1 EB19236A
+P 3900 4200
+F 0 "R9" H 3900 4260 70  0000 C BNN
+F 1 "4.53M" H 3900 4140 70  0000 C TNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3900 4200 50  0001 C CNN
+F 3 "" H 3900 4200 50  0001 C CNN
+	1    3900 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SolarCellX_v3-rescue:1MOHM-0603-1_4W-5%-misc-circuits-cache-misc-circuits-rescue R11
+U 1 1 12E4D8CA
+P 4500 4200
+F 0 "R11" H 4500 4260 70  0000 C BNN
+F 1 "4.75M" H 4500 4140 70  0000 C TNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 4500 4200 50  0001 C CNN
+F 3 "" H 4500 4200 50  0001 C CNN
+	1    4500 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SolarCellX_v3-rescue:1MOHM-0603-1_4W-5%-misc-circuits-cache-misc-circuits-rescue R7
+U 1 1 8795F9AC
+P 3900 3200
+F 0 "R7" H 3900 3260 70  0000 C BNN
+F 1 "374K" H 3900 3140 70  0000 C TNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3900 3200 50  0001 C CNN
+F 3 "" H 3900 3200 50  0001 C CNN
+	1    3900 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SolarCellX_v3-rescue:COILCRAFT-LPS4018-misc-circuits-cache-misc-circuits-rescue L1
+U 1 1 AD385499
+P 4350 1650
+F 0 "L1" V 4500 1600 59  0000 L BNN
+F 1 "22uH-LPS4018-223MR" V 4300 1200 59  0000 L BNN
+F 2 "misc-circuits:LPS4018" H 4350 1650 50  0001 C CNN
+F 3 "" H 4350 1650 50  0001 C CNN
+	1    4350 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SolarCellX_v3-rescue:COILCRAFT-LPS4018-misc-circuits-cache-misc-circuits-rescue L2
+U 1 1 8C3298C6
+P 7200 2350
+F 0 "L2" V 7150 2350 59  0000 L BNN
+F 1 "10uH-LPS4018-103MR" V 7350 1600 59  0000 L BNN
+F 2 "misc-circuits:LPS4018" H 7200 2350 50  0001 C CNN
+F 3 "" H 7200 2350 50  0001 C CNN
+	1    7200 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SolarCellX_v3-rescue:1MOHM-0603-1_4W-5%-misc-circuits-cache-misc-circuits-rescue R6
+U 1 1 5B63B1D5
+P 3250 4000
+F 0 "R6" H 3250 4060 70  0000 C BNN
+F 1 "5.62M" H 3250 3940 70  0000 C TNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3250 4000 50  0001 C CNN
+F 3 "" H 3250 4000 50  0001 C CNN
+	1    3250 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SolarCellX_v3-rescue:1MOHM-0603-1_4W-5%-misc-circuits-cache-misc-circuits-rescue R5
+U 1 1 7CB50D85
+P 3250 3500
+F 0 "R5" H 3250 3560 70  0000 C BNN
+F 1 "7.32M" H 3250 3440 70  0000 C TNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3250 3500 50  0001 C CNN
+F 3 "" H 3250 3500 50  0001 C CNN
+	1    3250 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SolarCellX_v3-rescue:1.0UF-0603-16V-10%-misc-circuits-cache-misc-circuits-rescue C1
+U 1 1 5DB28DEF
+P 1850 3350
+F 0 "C1" H 1958 3461 70  0000 L CNN
+F 1 "1.0uF" H 1958 3340 70  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1850 3350 50  0001 C CNN
+F 3 "" H 1850 3350 50  0001 C CNN
+	1    1850 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L SolarCellX_v3-rescue:0OHM-0603-1_10W-5%-misc-circuits-cache-misc-circuits-rescue R1
+U 1 1 5DB2F5DE
+P 2050 3050
+F 0 "R1" H 2050 2800 70  0000 C CNN
+F 1 "0" H 2050 2921 70  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2050 3050 50  0001 C CNN
+F 3 "" H 2050 3050 50  0001 C CNN
+	1    2050 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L SolarCellX_v3-rescue:0OHM-0603-1_10W-5%-misc-circuits-cache-misc-circuits-rescue R18
+U 1 1 5DB5E70D
+P 7400 3550
+F 0 "R18" H 7400 3610 70  0000 C BNN
+F 1 "0" H 7400 3490 70  0000 C TNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 7400 3550 50  0001 C CNN
+F 3 "" H 7400 3550 50  0001 C CNN
+	1    7400 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3V3 #PWR015
+U 1 1 5DB7CE90
+P 10000 2200
+F 0 "#PWR015" H 10000 2050 50  0001 C CNN
+F 1 "+3V3" H 10015 2373 50  0000 C CNN
+F 2 "" H 10000 2200 50  0001 C CNN
+F 3 "" H 10000 2200 50  0001 C CNN
+	1    10000 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10000 2350 10000 2200
+$Comp
+L symbols:MSS1P4-M3_89A D2
+U 1 1 5DC0B0A0
+P 9400 2350
+F 0 "D2" H 9700 2085 50  0000 C CNN
+F 1 "MSS1P4-M3_89A" H 9700 2176 50  0000 C CNN
+F 2 "custom-footprints:MICROSMP" H 9800 2500 50  0001 L BNN
+F 3 "https://www.vishay.com/docs/89019/mss1p4.pdf" H 9800 2400 50  0001 L BNN
+F 4 "Vishay MSS1P4-M3/89A SMT Schottky Diode, 40V 1A, 2-Pin uSMP" H 9800 2300 50  0001 L BNN "Description"
+F 5 "" H 9800 2200 50  0001 L BNN "Height"
+F 6 "Vishay" H 9800 2100 50  0001 L BNN "Manufacturer_Name"
+F 7 "MSS1P4-M3/89A" H 9800 2000 50  0001 L BNN "Manufacturer_Part_Number"
+F 8 "625-MSS1P4-M3" H 9800 1900 50  0001 L BNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=625-MSS1P4-M3" H 9800 1800 50  0001 L BNN "Mouser Price/Stock"
+F 10 "7103068P" H 9800 1700 50  0001 L BNN "RS Part Number"
+F 11 "http://uk.rs-online.com/web/p/products/7103068P" H 9800 1600 50  0001 L BNN "RS Price/Stock"
+F 12 "70217632" H 9800 1500 50  0001 L BNN "Allied_Number"
+F 13 "https://www.alliedelec.com/general-semiconductor-vishay-mss1p4-m3-89a/70217632/" H 9800 1400 50  0001 L BNN "Allied Price/Stock"
+	1    9400 2350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10000 2350 9500 2350
+Connection ~ 10000 2350
+Wire Wire Line
+	8450 2350 8800 2350
+Connection ~ 9500 2650
+Wire Wire Line
+	9500 2650 10000 2650
+Connection ~ 9500 2350
+Wire Wire Line
+	9500 2350 9400 2350
+Wire Wire Line
+	8450 2650 9500 2650
+Wire Wire Line
+	8700 5950 8150 5950
+$Comp
+L power:GND #PWR013
+U 1 1 5DB7ADC7
+P 8150 5950
+F 0 "#PWR013" H 8150 5700 50  0001 C CNN
+F 1 "GND" H 8155 5777 50  0000 C CNN
+F 2 "" H 8150 5950 50  0001 C CNN
+F 3 "" H 8150 5950 50  0001 C CNN
+	1    8150 5950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 6050 8700 6050
+Text GLabel 8550 6050 0    50   BiDi ~ 0
+COIL_N
+Wire Wire Line
+	9750 6050 9600 6050
+Text GLabel 9750 6050 2    50   BiDi ~ 0
+COIL_P
+Wire Wire Line
+	8500 5850 8700 5850
+Text GLabel 8500 5850 0    50   BiDi ~ 0
+BURN1
+Wire Wire Line
+	8500 5750 8700 5750
+Text GLabel 8500 5750 0    50   BiDi ~ 0
+SDA1
+Wire Wire Line
+	9800 5750 9600 5750
+Text GLabel 9800 5750 2    50   BiDi ~ 0
+SCL1
+Wire Wire Line
+	9600 5850 9750 5850
+$Comp
+L power:+3V3 #PWR012
+U 1 1 5DB87DA5
+P 9750 5850
+F 0 "#PWR012" H 9750 5700 50  0001 C CNN
+F 1 "+3V3" V 9750 6050 50  0000 C CNN
+F 2 "" H 9750 5850 50  0001 C CNN
+F 3 "" H 9750 5850 50  0001 C CNN
+	1    9750 5850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9600 5950 10150 5950
+$Comp
+L power:GND #PWR014
+U 1 1 5DB34939
+P 10150 5950
+F 0 "#PWR014" H 10150 5700 50  0001 C CNN
+F 1 "GND" H 10155 5777 50  0000 C CNN
+F 2 "" H 10150 5950 50  0001 C CNN
+F 3 "" H 10150 5950 50  0001 C CNN
+	1    10150 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9750 5650 9600 5650
+Text GLabel 9750 5650 2    50   Output ~ 0
+BATT_N
+Text GLabel 8550 5650 0    50   Output ~ 0
+BATT_P
+Wire Wire Line
+	8700 5650 8550 5650
+Text Notes 8450 4900 0    100  ~ 0
+Flat Flex Connector
+$Comp
+L symbols:XF2M-1015-1A J1
+U 1 1 5DB12088
+P 8700 5650
+F 0 "J1" H 9150 5915 50  0000 C CNN
+F 1 "XF2M-1015-1A" H 9150 5824 50  0000 C CNN
+F 2 "custom-footprints:XF2M-1015-1A" H 9450 5750 50  0001 L CNN
+F 3 "" H 9450 5650 50  0001 L CNN
+F 4 "0.5mm Rotary backlock 10 way Omron XF2M Series 0.5mm Pitch 10 Way Right Angle SMT Female FPC Connector Locking Mechanism, Top and Bottom Contact" H 9450 5550 50  0001 L CNN "Description"
+F 5 "Omron Electronics" H 9450 5350 50  0001 L CNN "Manufacturer_Name"
+F 6 "XF2M-1015-1A" H 9450 5250 50  0001 L CNN "Manufacturer_Part_Number"
+F 7 "653-XF2M-1015-1A" H 9450 5150 50  0001 L CNN "Mouser Part Number"
+F 8 "https://www.mouser.com/Search/Refine.aspx?Keyword=653-XF2M-1015-1A" H 9450 5050 50  0001 L CNN "Mouser Price/Stock"
+F 9 "7315772P" H 9450 4950 50  0001 L CNN "RS Part Number"
+F 10 "http://uk.rs-online.com/web/p/products/7315772P" H 9450 4850 50  0001 L CNN "RS Price/Stock"
+F 11 "70667825" H 9450 4750 50  0001 L CNN "Allied_Number"
+F 12 "https://www.alliedelec.com/omron-electronic-components-xf2m-1015-1a/70667825/" H 9450 4650 50  0001 L CNN "Allied Price/Stock"
+	1    8700 5650
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7100 6250
+Wire Wire Line
+	5250 6400 5250 6650
+Wire Wire Line
+	5250 5850 5500 5850
+Wire Wire Line
+	5250 6100 5250 5850
+$Comp
+L SolarCellX_v3-rescue:0.1UF-0603-25V-(+80_-20%)-misc-circuits-cache-misc-circuits-rescue C5
+U 1 1 5DB33F14
+P 5250 6200
+F 0 "C5" H 5358 6311 70  0000 L CNN
+F 1 "0.1uF" H 5358 6190 70  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5250 6200 50  0001 C CNN
+F 3 "" H 5250 6200 50  0001 C CNN
+	1    5250 6200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5800 6250 5500 6250
+$Comp
+L power:+3V3 #PWR06
+U 1 1 5DB2D712
+P 5500 5850
+F 0 "#PWR06" H 5500 5700 50  0001 C CNN
+F 1 "+3V3" H 5515 6023 50  0000 C CNN
+F 2 "" H 5500 5850 50  0001 C CNN
+F 3 "" H 5500 5850 50  0001 C CNN
+	1    5500 5850
+	1    0    0    -1  
+$EndComp
+Connection ~ 5500 5850
+Wire Wire Line
+	5800 5850 5500 5850
+Wire Wire Line
+	5800 6150 5800 5850
+Wire Wire Line
+	5800 6650 5800 6350
+Wire Wire Line
+	5250 6650 5500 6650
+Wire Wire Line
+	5500 6650 5800 6650
+Connection ~ 5500 6650
+$Comp
+L SolarCellX_v3-rescue:0OHM-0603-1_10W-5%-misc-circuits-cache-misc-circuits-rescue R13
+U 1 1 5DB21A42
+P 5500 6450
+F 0 "R13" V 5561 6382 70  0000 R CNN
+F 1 "0" V 5440 6382 70  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 5500 6450 50  0001 C CNN
+F 3 "" H 5500 6450 50  0001 C CNN
+	1    5500 6450
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5500 6250
+$Comp
+L SolarCellX_v3-rescue:0OHM-0603-1_10W-5%-misc-circuits-cache-misc-circuits-rescue R12
+U 1 1 5DB205D1
+P 5500 6050
+F 0 "R12" V 5561 5982 70  0000 R CNN
+F 1 "0" V 5440 5982 70  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 5500 6050 50  0001 C CNN
+F 3 "" H 5500 6050 50  0001 C CNN
+	1    5500 6050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 5DB1FC5C
+P 5500 6650
+F 0 "#PWR07" H 5500 6400 50  0001 C CNN
+F 1 "GND" H 5505 6477 50  0000 C CNN
+F 2 "" H 5500 6650 50  0001 C CNN
+F 3 "" H 5500 6650 50  0001 C CNN
+	1    5500 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 6350 7100 6350
+Text GLabel 7350 6350 2    50   BiDi ~ 0
+SDA1
+Wire Wire Line
+	7350 6150 7100 6150
+Text GLabel 7350 6150 2    50   BiDi ~ 0
+SCL1
+$Comp
+L symbols:TSL2561 U3
+U 1 1 5DB13ECD
+P 5800 6150
+F 0 "U3" H 6450 6415 50  0000 C CNN
+F 1 "TSL2561" H 6450 6324 50  0000 C CNN
+F 2 "misc-circuits:TSL2561" H 6950 6250 50  0001 L CNN
+F 3 "" H 6950 6150 50  0001 L CNN
+F 4 "Light-to-Digital Converter" H 6950 6050 50  0001 L CNN "Description"
+F 5 "1.55" H 6950 5950 50  0001 L CNN "Height"
+F 6 "ams" H 6950 5850 50  0001 L CNN "Manufacturer_Name"
+F 7 "TSL2561" H 6950 5750 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "N/A" H 6950 5650 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA" H 6950 5550 50  0001 L CNN "Mouser Price/Stock"
+	1    5800 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L SolarCellX_v3-rescue:SolarCell_Small-SolarCellParts SC1
+U 1 1 5DB1DD20
+P 13900 2200
+F 0 "SC1" H 13900 2565 50  0000 C CNN
+F 1 "SolarCell_Small" H 13900 2474 50  0000 C CNN
+F 2 "SolarCellParts:KXOB25-05X3F" H 13900 2450 50  0001 C CNN
+F 3 "" V 14100 2200 50  0001 C CNN
+	1    13900 2200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SolarCellX_v3-rescue:SolarCell_Small-SolarCellParts SC2
+U 1 1 5DB20198
+P 13900 2950
+F 0 "SC2" H 13900 3315 50  0000 C CNN
+F 1 "SolarCell_Small" H 13900 3224 50  0000 C CNN
+F 2 "SolarCellParts:KXOB25-05X3F" H 13900 3200 50  0001 C CNN
+F 3 "" V 14100 2950 50  0001 C CNN
+	1    13900 2950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SolarCellX_v3-rescue:SolarCell_Small-SolarCellParts SC3
+U 1 1 5DB20459
+P 13900 3700
+F 0 "SC3" H 13900 4065 50  0000 C CNN
+F 1 "SolarCell_Small" H 13900 3974 50  0000 C CNN
+F 2 "SolarCellParts:KXOB25-05X3F" H 13900 3950 50  0001 C CNN
+F 3 "" V 14100 3700 50  0001 C CNN
+	1    13900 3700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SolarCellX_v3-rescue:SolarCell_Small-SolarCellParts SC4
+U 1 1 5DB20680
+P 13900 4450
+F 0 "SC4" H 13900 4815 50  0000 C CNN
+F 1 "SolarCell_Small" H 13900 4724 50  0000 C CNN
+F 2 "SolarCellParts:KXOB25-05X3F" H 13900 4700 50  0001 C CNN
+F 3 "" V 14100 4450 50  0001 C CNN
+	1    13900 4450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SolarCellX_v3-rescue:SolarCell_Small-SolarCellParts SC8
+U 1 1 5DB2144E
+P 11900 4450
+F 0 "SC8" H 11900 4815 50  0000 C CNN
+F 1 "SolarCell_Small" H 11900 4724 50  0000 C CNN
+F 2 "SolarCellParts:KXOB25-05X3F" H 11900 4700 50  0001 C CNN
+F 3 "" V 12100 4450 50  0001 C CNN
+	1    11900 4450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SolarCellX_v3-rescue:SBDiode-SolarCellParts D4
+U 1 1 5DB2161B
+P 13950 1450
+F 0 "D4" H 13900 1225 50  0000 C CNN
+F 1 "SBDiode" H 13900 1316 50  0000 C CNN
+F 2 "SolarCellParts:SB Diode" H 13830 1780 50  0001 C CNN
+F 3 "" H 13890 1570 50  0001 C CNN
+	1    13950 1450
+	1    0    0    1   
+$EndComp
+$Comp
+L SolarCellX_v3-rescue:SBDiode-SolarCellParts D5
+U 1 1 5DB22D88
+P 12000 1450
+F 0 "D5" H 11950 1225 50  0000 C CNN
+F 1 "SBDiode" H 11950 1316 50  0000 C CNN
+F 2 "SolarCellParts:SB Diode" H 11880 1780 50  0001 C CNN
+F 3 "" H 11940 1570 50  0001 C CNN
+	1    12000 1450
+	1    0    0    1   
+$EndComp
+Connection ~ 12550 2950
+Wire Wire Line
+	12550 1450 12160 1450
+Connection ~ 12160 1450
+Wire Wire Line
+	12160 1450 12150 1450
+Wire Wire Line
+	11750 1450 11740 1450
+Wire Wire Line
+	14100 1450 14110 1450
+Wire Wire Line
+	14550 1450 14550 2200
+Connection ~ 14110 1450
+Wire Wire Line
+	14110 1450 14550 1450
+Wire Wire Line
+	14550 2200 14550 2950
+Connection ~ 14550 2200
+Wire Wire Line
+	14550 2950 14550 3700
+Connection ~ 14550 2950
+Wire Wire Line
+	14550 3700 14550 4450
+Connection ~ 14550 3700
+Wire Wire Line
+	13700 1450 13690 1450
+Wire Wire Line
+	13250 1450 13250 2200
+Connection ~ 13690 1450
+Wire Wire Line
+	13690 1450 13250 1450
+Wire Wire Line
+	13250 2200 13250 2950
+Connection ~ 13250 2200
+Wire Wire Line
+	13250 2950 13250 3700
+Connection ~ 13250 2950
+Wire Wire Line
+	13250 3700 13250 4450
+Connection ~ 13250 3700
+Wire Wire Line
+	13250 2950 12550 2950
+Wire Wire Line
+	14550 2950 14900 2950
+Connection ~ 11740 1450
+Connection ~ 12550 2200
+Connection ~ 12550 3700
+Wire Wire Line
+	12550 3700 12550 4450
+Wire Wire Line
+	12550 2950 12550 3700
+Wire Wire Line
+	12550 2200 12550 1450
+Wire Wire Line
+	12550 2200 12550 2950
+$Comp
+L power:GND #PWR0101
+U 1 1 5DB92931
+P 11150 2950
+F 0 "#PWR0101" H 11150 2700 50  0001 C CNN
+F 1 "GND" H 11155 2777 50  0000 C CNN
+F 2 "" H 11150 2950 50  0001 C CNN
+F 3 "" H 11150 2950 50  0001 C CNN
+	1    11150 2950
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	11250 2950 11150 2950
+Connection ~ 11250 2200
+Wire Wire Line
+	11740 1450 11250 1450
+Wire Wire Line
+	11250 1450 11250 2200
+Connection ~ 11250 2950
+Wire Wire Line
+	11250 2950 11250 2200
+Connection ~ 11250 3700
+Wire Wire Line
+	11250 3700 11250 2950
+Wire Wire Line
+	11250 4450 11250 3700
+$Comp
+L SolarCellX_v3-rescue:SolarCell_Small-SolarCellParts SC7
+U 1 1 5DB210CF
+P 11900 3700
+F 0 "SC7" H 11900 4065 50  0000 C CNN
+F 1 "SolarCell_Small" H 11900 3974 50  0000 C CNN
+F 2 "SolarCellParts:KXOB25-05X3F" H 11900 3950 50  0001 C CNN
+F 3 "" V 12100 3700 50  0001 C CNN
+	1    11900 3700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SolarCellX_v3-rescue:SolarCell_Small-SolarCellParts SC6
+U 1 1 5DB20D87
+P 11900 2950
+F 0 "SC6" H 11900 3315 50  0000 C CNN
+F 1 "SolarCell_Small" H 11900 3224 50  0000 C CNN
+F 2 "SolarCellParts:KXOB25-05X3F" H 11900 3200 50  0001 C CNN
+F 3 "" V 12100 2950 50  0001 C CNN
+	1    11900 2950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SolarCellX_v3-rescue:SolarCell_Small-SolarCellParts SC5
+U 1 1 5DB208DB
+P 11900 2200
+F 0 "SC5" H 11900 2565 50  0000 C CNN
+F 1 "SolarCell_Small" H 11900 2474 50  0000 C CNN
+F 2 "SolarCellParts:KXOB25-05X3F" H 11900 2450 50  0001 C CNN
+F 3 "" V 12100 2200 50  0001 C CNN
+	1    11900 2200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L symbols:MSS1P4-M3_89A D3
+U 1 1 5DC5AC3F
+P 14900 1850
+F 0 "D3" H 15200 1585 50  0000 C CNN
+F 1 "MSS1P4-M3_89A" H 15200 1676 50  0000 C CNN
+F 2 "custom-footprints:MICROSMP" H 15300 2000 50  0001 L BNN
+F 3 "https://www.vishay.com/docs/89019/mss1p4.pdf" H 15300 1900 50  0001 L BNN
+F 4 "Vishay MSS1P4-M3/89A SMT Schottky Diode, 40V 1A, 2-Pin uSMP" H 15300 1800 50  0001 L BNN "Description"
+F 5 "" H 15300 1700 50  0001 L BNN "Height"
+F 6 "Vishay" H 15300 1600 50  0001 L BNN "Manufacturer_Name"
+F 7 "MSS1P4-M3/89A" H 15300 1500 50  0001 L BNN "Manufacturer_Part_Number"
+F 8 "625-MSS1P4-M3" H 15300 1400 50  0001 L BNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=625-MSS1P4-M3" H 15300 1300 50  0001 L BNN "Mouser Price/Stock"
+F 10 "7103068P" H 15300 1200 50  0001 L BNN "RS Part Number"
+F 11 "http://uk.rs-online.com/web/p/products/7103068P" H 15300 1100 50  0001 L BNN "RS Price/Stock"
+F 12 "70217632" H 15300 1000 50  0001 L BNN "Allied_Number"
+F 13 "https://www.alliedelec.com/general-semiconductor-vishay-mss1p4-m3-89a/70217632/" H 15300 900 50  0001 L BNN "Allied Price/Stock"
+	1    14900 1850
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	14900 2950 14900 2450
+Text GLabel 15250 1850 2    50   BiDi ~ 0
+VSOLAR
+Wire Wire Line
+	15250 1850 14900 1850
+$Comp
+L SolarCellX_v3-rescue:0OHM-0603-1_10W-5%-misc-circuits-cache-misc-circuits-rescue R3
+U 1 1 5DCEE142
+P 8400 8200
+F 0 "R3" V 8461 8132 70  0000 R CNN
+F 1 "0" V 8340 8132 70  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 8400 8200 50  0001 C CNN
+F 3 "" H 8400 8200 50  0001 C CNN
+	1    8400 8200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SolarCellX_v3-rescue:0OHM-0603-1_10W-5%-misc-circuits-cache-misc-circuits-rescue R2
+U 1 1 5DCEEA09
+P 8400 7800
+F 0 "R2" V 8461 7732 70  0000 R CNN
+F 1 "0" V 8340 7732 70  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 8400 7800 50  0001 C CNN
+F 3 "" H 8400 7800 50  0001 C CNN
+	1    8400 7800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8250 8000 8400 8000
+Text GLabel 8250 8000 0    50   BiDi ~ 0
+COIL_P
+Text Notes 9100 7600 0    100  ~ 0
+COIL+
+Text Notes 9100 8450 0    100  ~ 0
+COIL-
+Text Notes 8900 8050 0    50   ~ 0
+Clockwise\n(while facing layer 1)
+Connection ~ 8400 8000
+Wire Wire Line
+	10400 8000 10250 8000
+Text GLabel 10400 8000 2    50   BiDi ~ 0
+COIL_N
+$Comp
+L SolarCellX_v3-rescue:0OHM-0603-1_10W-5%-misc-circuits-cache-misc-circuits-rescue R19
+U 1 1 5DD39829
+P 10250 8200
+F 0 "R19" V 10311 8132 70  0000 R CNN
+F 1 "0" V 10190 8132 70  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 10250 8200 50  0001 C CNN
+F 3 "" H 10250 8200 50  0001 C CNN
+	1    10250 8200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SolarCellX_v3-rescue:0OHM-0603-1_10W-5%-misc-circuits-cache-misc-circuits-rescue R4
+U 1 1 5DD3982F
+P 10250 7800
+F 0 "R4" V 10311 7732 70  0000 R CNN
+F 1 "0" V 10190 7732 70  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 10250 7800 50  0001 C CNN
+F 3 "" H 10250 7800 50  0001 C CNN
+	1    10250 7800
+	0    -1   -1   0   
+$EndComp
+Connection ~ 10250 8000
+Wire Wire Line
+	8400 7600 10250 7600
+Wire Wire Line
+	8400 8400 10250 8400
+Text Label 9900 7600 0    50   ~ 0
+coil
+Text Label 9900 8400 0    50   ~ 0
+coil
+$EndSCHEMATC
