@@ -302,6 +302,7 @@ Connection ~ 3650 3900
 $Comp
 L Mechanical:MountingHole_Pad H1
 U 1 1 5DB4EEAC
+<<<<<<< Updated upstream
 P 3650 6800
 F 0 "H1" H 3750 6849 50  0000 L CNN
 F 1 "MountingHole_Pad" H 3750 6758 50  0001 L CNN
@@ -322,6 +323,28 @@ F 3 "~" H 3650 6900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Notes 1700 6400 0    157  ~ 0
+=======
+P 3400 6650
+F 0 "H1" H 3500 6699 50  0000 L CNN
+F 1 "MountingHole_Pad" H 3500 6608 50  0001 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 3400 6650 50  0001 C CNN
+F 3 "~" H 3400 6650 50  0001 C CNN
+	1    3400 6650
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5DB5261E
+P 3400 6750
+F 0 "H2" H 3500 6799 50  0000 L CNN
+F 1 "MountingHole_Pad" H 3500 6708 50  0001 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 3400 6750 50  0001 C CNN
+F 3 "~" H 3400 6750 50  0001 C CNN
+	1    3400 6750
+	0    1    1    0   
+$EndComp
+Text Notes 2400 5600 0    157  ~ 0
+>>>>>>> Stashed changes
 Radio Assembly
 Text Notes 6550 1400 0    157  ~ 0
 Power and Connectors\n
