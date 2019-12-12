@@ -1,9 +1,0 @@
-(module DUMMY (layer F.Cu) (tedit 0)
-  (descr "<h3>Dummy Footprint</h3>\n<p>NOTHING HERE!!! For when you want a symbol with no package as an option against symbols with a package.</p>\n\n<p>Devices using:\n<ul><li>BADGERHACK_LOGO</li>\n<li>FRAME-LETTER</li></ul></p>")
-  (fp_text reference FRAME1 (at 0 0) (layer F.SilkS) hide
-    (effects (font (size 1.27 1.27) (thickness 0.15)))
-  )
-  (fp_text value FRAME-LETTERNO_PACKAGE (at 0 0) (layer F.SilkS) hide
-    (effects (font (size 1.27 1.27) (thickness 0.15)))
-  )
-)

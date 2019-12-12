@@ -1,4 +1,0 @@
-(fp_lib_table
-  (lib (name SolarCellParts)(type KiCad)(uri ${KIPRJMOD}/Libraries/SolarCellParts.pretty)(options "")(descr ""))
-  (lib (name misc-circuits)(type KiCad)(uri ${KIPRJMOD}/Libraries/misc-circuits.pretty)(options "")(descr ""))
-)
