@@ -1,0 +1,233 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Device_C_Small
+#
+DEF Device_C_Small C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "Device_C_Small" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_R_Small_US
+#
+DEF Device_R_Small_US R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "Device_R_Small_US" 30 -40 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+P 5 1 1 0 0 0 40 -15 0 -30 -40 -45 0 -60 N
+P 5 1 1 0 0 60 40 45 0 30 -40 15 0 0 N
+X ~ 1 0 100 40 D 50 50 1 1 P
+X ~ 2 0 -100 40 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Mechanical_MountingHole_Pad
+#
+DEF Mechanical_MountingHole_Pad H 0 40 N N 1 F N
+F0 "H" 0 250 50 H V C CNN
+F1 "Mechanical_MountingHole_Pad" 0 175 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ MountingHole*Pad*
+$ENDFPLIST
+DRAW
+C 0 50 50 0 1 50 N
+X 1 1 0 -100 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# SolarCell+Y-rescue_HHM17139B2-symbols
+#
+DEF SolarCell+Y-rescue_HHM17139B2-symbols U 0 40 Y Y 1 F N
+F0 "U" 0 200 50 H V C CNN
+F1 "SolarCell+Y-rescue_HHM17139B2-symbols" 0 -200 50 H V C CNN
+F2 "custom-footprints:balun0603" 0 -300 50 H I C CNN
+F3 "" -350 -100 50 H I C CNN
+DRAW
+S -500 150 500 -150 0 1 0 N
+X Unbalanced 1 -600 100 100 R 50 50 1 1 I
+X GND 2 -600 -100 100 R 50 50 1 1 I
+X Balanced1 3 600 100 100 L 50 50 1 1 I
+X Balanced2 4 600 0 100 L 50 50 1 1 I
+X GND 5 600 -100 100 L 50 50 1 1 I
+X NC 6 600 -100 100 L 50 50 1 1 I N
+ENDDRAW
+ENDDEF
+#
+# SolarCell+Y-rescue_MSS1P4-M3_89A-symbols
+#
+DEF SolarCell+Y-rescue_MSS1P4-M3_89A-symbols D 0 30 Y Y 1 F N
+F0 "D" 400 350 50 H V L BNN
+F1 "SolarCell+Y-rescue_MSS1P4-M3_89A-symbols" 400 250 50 H V L BNN
+F2 "MICROSMP" 400 150 50 H I L BNN
+F3 "https://www.vishay.com/docs/89019/mss1p4.pdf" 400 50 50 H I L BNN
+F4 "Vishay MSS1P4-M3/89A SMT Schottky Diode, 40V 1A, 2-Pin uSMP" 400 -50 50 H I L BNN "Description"
+F5 "Vishay" 400 -250 50 H I L BNN "Manufacturer_Name"
+F6 "MSS1P4-M3/89A" 400 -350 50 H I L BNN "Manufacturer_Part_Number"
+F7 "625-MSS1P4-M3" 400 -450 50 H I L BNN "Mouser Part Number"
+F8 "https://www.mouser.com/Search/Refine.aspx?Keyword=625-MSS1P4-M3" 400 -550 50 H I L BNN "Mouser Price/Stock"
+F9 "7103068P" 400 -650 50 H I L BNN "RS Part Number"
+F10 "http://uk.rs-online.com/web/p/products/7103068P" 400 -750 50 H I L BNN "RS Price/Stock"
+F11 "70217632" 400 -850 50 H I L BNN "Allied_Number"
+F12 "https://www.alliedelec.com/general-semiconductor-vishay-mss1p4-m3-89a/70217632/" 400 -950 50 H I L BNN "Allied Price/Stock"
+DRAW
+P 2 0 1 6 160 -100 200 -80 N
+P 2 0 1 6 200 80 200 -80 N
+P 2 0 1 6 200 80 240 100 N
+P 4 0 1 6 200 0 400 100 400 -100 200 0 N
+X ~ 1 0 0 200 R 50 50 0 0 U
+X ~ 2 600 0 200 L 50 50 0 0 U
+ENDDRAW
+ENDDEF
+#
+# SolarCell+Y-rescue_SBDiode-SolarCellParts
+#
+DEF SolarCell+Y-rescue_SBDiode-SolarCellParts D 0 0 Y Y 1 F N
+F0 "D" -60 120 50 H V C CNN
+F1 "SolarCell+Y-rescue_SBDiode-SolarCellParts" -60 220 50 H V C CNN
+F2 "SolarCellParts:SB Diode" -120 330 50 H I C CNN
+F3 "" -60 120 50 H I C CNN
+DRAW
+P 2 0 1 0 -160 0 -100 0 N
+P 2 0 1 0 0 0 60 0 N
+P 4 0 1 0 -100 50 -100 -50 0 0 -100 50 N
+P 4 0 1 0 0 0 0 -50 -20 -50 -20 -30 N
+P 4 0 1 0 0 0 0 50 20 50 20 30 N
+X NEG 1 160 0 100 L 50 50 1 1 B
+X POS 2 -260 0 100 R 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# SolarCell+Y-rescue_SolarCell_Small-SolarCellParts
+#
+DEF SolarCell+Y-rescue_SolarCell_Small-SolarCellParts SC 0 40 Y Y 1 F N
+F0 "SC" 0 -50 50 H V C CNN
+F1 "SolarCell+Y-rescue_SolarCell_Small-SolarCellParts" 0 50 50 H V C CNN
+F2 "SolarCellParts:KXOB25-05X3F" 0 250 50 H I C CNN
+F3 "" 200 0 50 V I C CNN
+DRAW
+S -550 -200 550 200 0 1 0 N
+X V+ 1 -650 0 100 R 50 50 1 1 B
+X V- 2 650 0 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# SolarCell+Y-rescue_U.FL-R-SMT-1-symbols
+#
+DEF SolarCell+Y-rescue_U.FL-R-SMT-1-symbols J 0 30 Y Y 1 F N
+F0 "J" -300 450 50 H V L CNN
+F1 "SolarCell+Y-rescue_U.FL-R-SMT-1-symbols" -300 350 50 H V L CNN
+F2 "U.FL-R-SMT-1" -300 250 50 H I L CNN
+F3 "https://www.hirose.co.jp/cataloge_hp/ed_UFL_20141014.pdf" -300 150 50 H I L CNN
+F4 "Hirose" -300 -150 50 H I L CNN "Manufacturer_Name"
+F5 "U.FL-R-SMT-1" -300 -250 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 -200 100 200 100 200 -100 -200 -100 -200 100 N
+X GND 1 100 -300 200 U 50 50 0 0 U
+X 2 2 100 -300 200 U 50 50 0 0 U N
+X ANT 3 -400 0 200 R 50 50 0 0 U
+ENDDRAW
+ENDDEF
+#
+# SolarCell+Y-rescue_symbols_TSL2561-misc-circuits-cache
+#
+DEF SolarCell+Y-rescue_symbols_TSL2561-misc-circuits-cache IC 0 30 Y Y 1 F N
+F0 "IC" 1150 300 50 H V L CNN
+F1 "SolarCell+Y-rescue_symbols_TSL2561-misc-circuits-cache" 1150 200 50 H V L CNN
+F2 "TSL2561" 1150 100 50 H I L CNN
+F3 "https://ams.com/documents/20143/36005/TSL2561_DS000110_3-00.pdf/18a41097-2035-4333-c70e-bfa544c0a98b" 1150 0 50 H I L CNN
+F4 "Light-to-Digital Converter" 1150 -100 50 H I L CNN "Description"
+F5 "1.55" 1150 -200 50 H I L CNN "Height"
+F6 "ams" 1150 -300 50 H I L CNN "Manufacturer_Name"
+F7 "TSL2561" 1150 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "N/A" 1150 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA" 1150 -600 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 1100 100 1100 -300 200 -300 200 100 N
+X VDD 1 0 0 200 R 50 50 0 0 U
+X ADDR_SEL 2 0 -100 200 R 50 50 0 0 U
+X GND 3 0 -200 200 R 50 50 0 0 U
+X SCL 4 1300 0 200 L 50 50 0 0 U
+X INT 5 1300 -100 200 L 50 50 0 0 U
+X SDA 6 1300 -200 200 L 50 50 0 0 U
+ENDDRAW
+ENDDEF
+#
+# SolarCell+Y-rescue_symbols_XF2M-1015-1A-misc-circuits-cache
+#
+DEF SolarCell+Y-rescue_symbols_XF2M-1015-1A-misc-circuits-cache J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "SolarCell+Y-rescue_symbols_XF2M-1015-1A-misc-circuits-cache" 750 200 50 H V L CNN
+F2 "XF2M-1015-1A" 750 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/3/XF2M-1015-1A.pdf" 750 0 50 H I L CNN
+F4 "0.5mm Rotary backlock 10 way Omron XF2M Series 0.5mm Pitch 10 Way Right Angle SMT Female FPC Connector Locking Mechanism, Top and Bottom Contact" 750 -100 50 H I L CNN "Description"
+F5 "Omron Electronics" 750 -300 50 H I L CNN "Manufacturer_Name"
+F6 "XF2M-1015-1A" 750 -400 50 H I L CNN "Manufacturer_Part_Number"
+F7 "653-XF2M-1015-1A" 750 -500 50 H I L CNN "Mouser Part Number"
+F8 "https://www.mouser.com/Search/Refine.aspx?Keyword=653-XF2M-1015-1A" 750 -600 50 H I L CNN "Mouser Price/Stock"
+F9 "7315772P" 750 -700 50 H I L CNN "RS Part Number"
+F10 "http://uk.rs-online.com/web/p/products/7315772P" 750 -800 50 H I L CNN "RS Price/Stock"
+F11 "70667825" 750 -900 50 H I L CNN "Allied_Number"
+F12 "https://www.alliedelec.com/omron-electronic-components-xf2m-1015-1a/70667825/" 750 -1000 50 H I L CNN "Allied Price/Stock"
+DRAW
+P 5 0 1 6 200 100 700 100 700 -500 200 -500 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 B
+X 10 10 900 -400 200 L 50 50 0 0 B
+X 2 2 900 0 200 L 50 50 0 0 B
+X 3 3 0 -100 200 R 50 50 0 0 B
+X 4 4 900 -100 200 L 50 50 0 0 B
+X 5 5 0 -200 200 R 50 50 0 0 B
+X 6 6 900 -200 200 L 50 50 0 0 B
+X 7 7 0 -300 200 R 50 50 0 0 B
+X 8 8 900 -300 200 L 50 50 0 0 B
+X 9 9 0 -400 200 R 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+# power_+3.3V
+#
+DEF power_+3.3V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+3.3V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+ALIAS +3.3V
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+#End Library

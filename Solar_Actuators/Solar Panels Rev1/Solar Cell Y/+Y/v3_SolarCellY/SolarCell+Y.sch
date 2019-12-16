@@ -387,7 +387,7 @@ U 1 1 5DB71D54
 P 1950 6800
 F 0 "J2" H 2178 6738 50  0000 L CNN
 F 1 "U.FL-R-SMT-1" H 2178 6647 50  0000 L CNN
-F 2 "U.FL-R-SMT-1" H 1650 7050 50  0001 L CNN
+F 2 "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical" H 1650 7050 50  0001 L CNN
 F 3 "https://www.hirose.co.jp/cataloge_hp/ed_UFL_20141014.pdf" H 1650 6950 50  0001 L CNN
 F 4 "Hirose" H 1650 6650 50  0001 L CNN "Manufacturer_Name"
 F 5 "U.FL-R-SMT-1" H 1650 6550 50  0001 L CNN "Manufacturer_Part_Number"
