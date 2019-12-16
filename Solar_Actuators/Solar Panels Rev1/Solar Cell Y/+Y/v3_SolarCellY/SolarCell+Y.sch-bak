@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
 LIBS:SolarCell+Y-cache
-LIBS:SolarCellZ_v1-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -544,7 +543,7 @@ Wire Wire Line
 Wire Wire Line
 	8800 5100 9150 5100
 $Comp
-L SolarCellZ_v1-rescue:RESISTOR0603-mainboard-misc-circuits-rescue R7
+L SolarCell+Y-rescue:RESISTOR0603-mainboard-misc-circuits-rescue-SolarCellZ_v1-rescue R7
 U 1 1 5DB28BB7
 P 8800 5300
 AR Path="/5DB28BB7" Ref="R7"  Part="1" 
@@ -557,7 +556,7 @@ F 3 "" H 8800 5300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SolarCellZ_v1-rescue:RESISTOR0603-mainboard-misc-circuits-rescue R5
+L SolarCell+Y-rescue:RESISTOR0603-mainboard-misc-circuits-rescue-SolarCellZ_v1-rescue R5
 U 1 1 5DB28BC9
 P 8100 5400
 AR Path="/5DB28BC9" Ref="R5"  Part="1" 
@@ -570,7 +569,7 @@ F 3 "" H 8100 5400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L SolarCellZ_v1-rescue:RESISTOR0603-mainboard-misc-circuits-rescue R6
+L SolarCell+Y-rescue:RESISTOR0603-mainboard-misc-circuits-rescue-SolarCellZ_v1-rescue R6
 U 1 1 5DB28BCF
 P 8300 5200
 AR Path="/5DB28BCF" Ref="R6"  Part="1" 
@@ -583,7 +582,7 @@ F 3 "" H 8300 5200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L SolarCellZ_v1-rescue:IRLML2803TRPBF-mainboard-misc-circuits-rescue Q1
+L SolarCell+Y-rescue:IRLML2803TRPBF-mainboard-misc-circuits-rescue-SolarCellZ_v1-rescue Q1
 U 1 1 5DB28BE3
 P 8600 5500
 AR Path="/5DB28BE3" Ref="Q1"  Part="1" 
@@ -598,7 +597,7 @@ F 5 "IRLML2803" V 8600 5500 50  0001 C CNN "Flight"
 	0    1    1    0   
 $EndComp
 $Comp
-L SolarCellZ_v1-rescue:NDS8434-symbols-misc-circuits-rescue U?
+L SolarCell+Y-rescue:NDS8434-symbols-misc-circuits-rescue-SolarCellZ_v1-rescue U?
 U 1 1 5DB28C34
 P 9650 5400
 AR Path="/5CEC5A72/5DB28C34" Ref="U?"  Part="1" 
