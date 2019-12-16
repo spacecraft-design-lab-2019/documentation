@@ -527,19 +527,14 @@ Wire Wire Line
 	5600 2450 5600 2600
 Text Notes 7700 4600 0    157  ~ 0
 Burnwire Control\n\n
-Wire Wire Line
-	8100 5600 8400 5600
 Text Label 10550 5300 2    50   ~ 0
 VBURN
 Wire Wire Line
 	8100 5200 8000 5200
 Text GLabel 8000 5200 0    50   BiDi ~ 0
 BURN1
-Connection ~ 8100 5200
 Wire Wire Line
-	8800 5500 8800 5600
-Wire Wire Line
-	8500 5400 8500 5200
+	8500 5400 8500 5300
 Wire Wire Line
 	8800 5100 9150 5100
 $Comp
@@ -549,24 +544,11 @@ P 8800 5300
 AR Path="/5DB28BB7" Ref="R7"  Part="1" 
 AR Path="/5CEC6476/5DB28BB7" Ref="R?"  Part="1" 
 F 0 "R7" V 8861 5232 70  0000 R CNN
-F 1 "100k" V 8740 5232 70  0000 R CNN
+F 1 "1M" V 8740 5232 70  0000 R CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 8800 5300 50  0001 C CNN
 F 3 "" H 8800 5300 50  0001 C CNN
 	1    8800 5300
 	0    -1   -1   0   
-$EndComp
-$Comp
-L SolarCell+Y-rescue:RESISTOR0603-mainboard-misc-circuits-rescue-SolarCellZ_v1-rescue R5
-U 1 1 5DB28BC9
-P 8100 5400
-AR Path="/5DB28BC9" Ref="R5"  Part="1" 
-AR Path="/5CEC6476/5DB28BC9" Ref="R?"  Part="1" 
-F 0 "R5" V 8039 5333 70  0000 R CNN
-F 1 "10k" V 8160 5333 70  0000 R CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 8100 5400 50  0001 C CNN
-F 3 "" H 8100 5400 50  0001 C CNN
-	1    8100 5400
-	0    1    1    0   
 $EndComp
 $Comp
 L SolarCell+Y-rescue:RESISTOR0603-mainboard-misc-circuits-rescue-SolarCellZ_v1-rescue R6
@@ -580,21 +562,6 @@ F 2 "Resistor_SMD:R_0402_1005Metric" H 8300 5200 50  0001 C CNN
 F 3 "" H 8300 5200 50  0001 C CNN
 	1    8300 5200
 	-1   0    0    1   
-$EndComp
-$Comp
-L SolarCell+Y-rescue:IRLML2803TRPBF-mainboard-misc-circuits-rescue-SolarCellZ_v1-rescue Q1
-U 1 1 5DB28BE3
-P 8600 5500
-AR Path="/5DB28BE3" Ref="Q1"  Part="1" 
-AR Path="/5CEC6476/5DB28BE3" Ref="Q?"  Part="1" 
-F 0 "Q1" V 8850 5500 59  0000 C CNN
-F 1 "IRLML2803" V 8950 5600 59  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 8600 5500 50  0001 C CNN
-F 3 "" H 8600 5500 50  0001 C CNN
-F 4 "2302" V 8600 5500 50  0001 C CNN "Proto"
-F 5 "IRLML2803" V 8600 5500 50  0001 C CNN "Flight"
-	1    8600 5500
-	0    1    1    0   
 $EndComp
 $Comp
 L SolarCell+Y-rescue:NDS8434-symbols-misc-circuits-rescue-SolarCellZ_v1-rescue U?
@@ -616,9 +583,6 @@ Wire Wire Line
 	10150 5300 10550 5300
 Wire Wire Line
 	9150 5700 8800 5700
-Wire Wire Line
-	8800 5700 8800 5600
-Connection ~ 8800 5600
 Wire Wire Line
 	9150 5500 9150 5300
 Connection ~ 9150 5300
@@ -655,21 +619,67 @@ F 3 "" H 10550 5900 50  0001 C CNN
 	1    10550 5900
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR0108
-U 1 1 5DB4839B
-P 8100 5600
-F 0 "#PWR0108" H 8100 5350 50  0001 C CNN
-F 1 "GND" H 8105 5427 50  0000 C CNN
-F 2 "" H 8100 5600 50  0001 C CNN
-F 3 "" H 8100 5600 50  0001 C CNN
-	1    8100 5600
-	1    0    0    -1  
-$EndComp
-Connection ~ 8100 5600
 Wire Wire Line
 	8800 5100 7250 5100
 Connection ~ 8800 5100
 Text GLabel 7250 5100 0    50   BiDi ~ 0
 BATT_P
+$Comp
+L power:GND #PWR0108
+U 1 1 5DB4839B
+P 8200 5750
+F 0 "#PWR0108" H 8200 5500 50  0001 C CNN
+F 1 "GND" H 8205 5577 50  0000 C CNN
+F 2 "" H 8200 5750 50  0001 C CNN
+F 3 "" H 8200 5750 50  0001 C CNN
+	1    8200 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L SolarCell+Y-rescue:RESISTOR0603-mainboard-misc-circuits-rescue-SolarCellZ_v1-rescue R5
+U 1 1 5DB28BC9
+P 8200 5500
+AR Path="/5DB28BC9" Ref="R5"  Part="1" 
+AR Path="/5CEC6476/5DB28BC9" Ref="R?"  Part="1" 
+F 0 "R5" V 8139 5433 70  0000 R CNN
+F 1 "1M" V 8260 5433 70  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 8200 5500 50  0001 C CNN
+F 3 "" H 8200 5500 50  0001 C CNN
+	1    8200 5500
+	0    1    1    0   
+$EndComp
+Connection ~ 8800 5600
+Wire Wire Line
+	8800 5700 8800 5600
+Wire Wire Line
+	8800 5500 8800 5600
+$Comp
+L SolarCell+Y-rescue:IRLML2803TRPBF-mainboard-misc-circuits-rescue-SolarCellZ_v1-rescue Q1
+U 1 1 5DB28BE3
+P 8600 5500
+AR Path="/5DB28BE3" Ref="Q1"  Part="1" 
+AR Path="/5CEC6476/5DB28BE3" Ref="Q?"  Part="1" 
+F 0 "Q1" V 8850 5500 59  0000 C CNN
+F 1 "IRLML2803" V 8950 5600 59  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8600 5500 50  0001 C CNN
+F 3 "" H 8600 5500 50  0001 C CNN
+F 4 "2302" V 8600 5500 50  0001 C CNN "Proto"
+F 5 "IRLML2803" V 8600 5500 50  0001 C CNN "Flight"
+	1    8600 5500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8200 5300 8500 5300
+Connection ~ 8500 5300
+Wire Wire Line
+	8500 5300 8500 5200
+Wire Wire Line
+	8400 5600 8300 5600
+Wire Wire Line
+	8300 5600 8300 5700
+Wire Wire Line
+	8300 5700 8200 5700
+Wire Wire Line
+	8200 5700 8200 5750
+Connection ~ 8200 5700
 $EndSCHEMATC
