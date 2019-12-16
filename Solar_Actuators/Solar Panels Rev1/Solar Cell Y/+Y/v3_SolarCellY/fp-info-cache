@@ -72901,124 +72901,125 @@ solarpcb
 10MM_SM_COIN_CELL_CLIP
 Battery cell clip for CR927<p>
 Source: KEYSTONE ELECTRONICS CORP.<br>
-www.keyelco.com, ASTORIA, N.Y. 11105-2017<br>
-PART ANME 10mm SM COIN CELl CLIP<br>
-DWG NO. 3030
+0
+0
+0
 
 0
 3
 3
-solarpcb
-0603
-<p><b>Generic 1608 (0603) package</b></p>
+0
+603
+0
 <p>0.2mm courtyard excess rounded to nearest 0.05mm.</p>
 
 0
 2
 2
-solarpcb
-0805
+0
+805
 <p><b>Generic 2012 (0805) package</b></p>
 <p>0.2mm courtyard excess rounded to nearest 0.05mm.</p>
 
 0
 2
 2
-solarpcb
+0
 D2F-L2
 
 
 0
 3
 3
-solarpcb
+0
 D2F-L2-2
 
 
 0
 3
 3
-solarpcb
+0
 DCK0006A
 
 
 0
 6
 6
-solarpcb
+0
 DFE322512C
 muRata (previously TOKO) DFE322512C series inductors
 
 0
 2
 2
-solarpcb
+0
 KXOB25-05X3F
 
 
 0
 2
 2
-solarpcb
+0
 LPS4018
 Coilcraft LPS4018 series inductor package.
 
 0
 2
 2
-solarpcb
+0
 QFN50P350X350X100-21N-D
 BQ25570RGRR-1
 Integrated Circuit
 0
 21
 21
-solarpcb
+0
 RGR0020A
 
 
 0
 22
 22
-solarpcb
+0
 SB-Diode
 
 
 0
 2
 2
-solarpcb
+0
 SCREWTERMINAL-3.5MM-2_LOCK
 
 
 0
 2
 2
-solarpcb
+0
 SOD523
 <B>DIODE</B>
 
 0
 2
 2
-solarpcb
+0
 SWLP-12-B
 
 
 0
 9
 9
-solarpcb
+0
 TSL2561
 TSL2561-2
 Integrated Circuit
 0
 6
 6
-solarpcb
+0
 XF2M-1015-1A
 XF2M-1015-1A
 Connector
 0
 12
 12
+0
