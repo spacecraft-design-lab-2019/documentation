@@ -1,6 +1,23 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Connector_TestPoint
+#
+DEF Connector_TestPoint TP 0 30 N N 1 F N
+F0 "TP" 0 270 50 H V C CNN
+F1 "Connector_TestPoint" 0 200 50 H V C CNN
+F2 "" 200 0 50 H I C CNN
+F3 "" 200 0 50 H I C CNN
+$FPLIST
+ Pin*
+ Test*
+$ENDFPLIST
+DRAW
+C 0 130 30 0 1 0 N
+X 1 1 0 0 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Device_C_Small
 #
 DEF Device_C_Small C 0 10 N N 1 F N
@@ -69,24 +86,6 @@ $ENDFPLIST
 DRAW
 C 0 50 50 0 1 50 N
 X 1 1 0 -100 100 U 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# SolarCell+Y-rescue_HHM17139B2-symbols
-#
-DEF SolarCell+Y-rescue_HHM17139B2-symbols U 0 40 Y Y 1 F N
-F0 "U" 0 200 50 H V C CNN
-F1 "SolarCell+Y-rescue_HHM17139B2-symbols" 0 -200 50 H V C CNN
-F2 "custom-footprints:balun0603" 0 -300 50 H I C CNN
-F3 "" -350 -100 50 H I C CNN
-DRAW
-S -500 150 500 -150 0 1 0 N
-X Unbalanced 1 -600 100 100 R 50 50 1 1 I
-X GND 2 -600 -100 100 R 50 50 1 1 I
-X Balanced1 3 600 100 100 L 50 50 1 1 I
-X Balanced2 4 600 0 100 L 50 50 1 1 I
-X GND 5 600 -100 100 L 50 50 1 1 I
-X NC 6 600 -100 100 L 50 50 1 1 I N
 ENDDRAW
 ENDDEF
 #
@@ -231,47 +230,6 @@ X V- 2 650 0 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# SolarCell+Y-rescue_U.FL-R-SMT-1-symbols
-#
-DEF SolarCell+Y-rescue_U.FL-R-SMT-1-symbols J 0 30 Y Y 1 F N
-F0 "J" -300 450 50 H V L CNN
-F1 "SolarCell+Y-rescue_U.FL-R-SMT-1-symbols" -300 350 50 H V L CNN
-F2 "U.FL-R-SMT-1" -300 250 50 H I L CNN
-F3 "https://www.hirose.co.jp/cataloge_hp/ed_UFL_20141014.pdf" -300 150 50 H I L CNN
-F4 "Hirose" -300 -150 50 H I L CNN "Manufacturer_Name"
-F5 "U.FL-R-SMT-1" -300 -250 50 H I L CNN "Manufacturer_Part_Number"
-DRAW
-P 5 0 1 6 -200 100 200 100 200 -100 -200 -100 -200 100 N
-X GND 1 100 -300 200 U 50 50 0 0 U
-X 2 2 100 -300 200 U 50 50 0 0 U N
-X ANT 3 -400 0 200 R 50 50 0 0 U
-ENDDRAW
-ENDDEF
-#
-# SolarCell+Y-rescue_symbols_TSL2561-misc-circuits-cache
-#
-DEF SolarCell+Y-rescue_symbols_TSL2561-misc-circuits-cache IC 0 30 Y Y 1 F N
-F0 "IC" 1150 300 50 H V L CNN
-F1 "SolarCell+Y-rescue_symbols_TSL2561-misc-circuits-cache" 1150 200 50 H V L CNN
-F2 "TSL2561" 1150 100 50 H I L CNN
-F3 "https://ams.com/documents/20143/36005/TSL2561_DS000110_3-00.pdf/18a41097-2035-4333-c70e-bfa544c0a98b" 1150 0 50 H I L CNN
-F4 "Light-to-Digital Converter" 1150 -100 50 H I L CNN "Description"
-F5 "1.55" 1150 -200 50 H I L CNN "Height"
-F6 "ams" 1150 -300 50 H I L CNN "Manufacturer_Name"
-F7 "TSL2561" 1150 -400 50 H I L CNN "Manufacturer_Part_Number"
-F8 "N/A" 1150 -500 50 H I L CNN "Mouser Part Number"
-F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA" 1150 -600 50 H I L CNN "Mouser Price/Stock"
-DRAW
-P 5 0 1 6 200 100 1100 100 1100 -300 200 -300 200 100 N
-X VDD 1 0 0 200 R 50 50 0 0 U
-X ADDR_SEL 2 0 -100 200 R 50 50 0 0 U
-X GND 3 0 -200 200 R 50 50 0 0 U
-X SCL 4 1300 0 200 L 50 50 0 0 U
-X INT 5 1300 -100 200 L 50 50 0 0 U
-X SDA 6 1300 -200 200 L 50 50 0 0 U
-ENDDRAW
-ENDDEF
-#
 # SolarCell+Y-rescue_symbols_XF2M-1015-1A-misc-circuits-cache
 #
 DEF SolarCell+Y-rescue_symbols_XF2M-1015-1A-misc-circuits-cache J 0 30 Y Y 1 F N
@@ -329,6 +287,78 @@ F3 "" 0 0 50 H I C CNN
 DRAW
 P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
 X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# symbols_TSL2561
+#
+DEF symbols_TSL2561 U 0 30 Y Y 1 F N
+F0 "U" 1150 300 50 H V L CNN
+F1 "symbols_TSL2561" 1150 200 50 H V L CNN
+F2 "custom-footprints:TSL2561" 1150 100 50 H I L CNN
+F3 "" 1150 0 50 H I L CNN
+F4 "Light-to-Digital Converter" 1150 -100 50 H I L CNN "Description"
+F5 "1.55" 1150 -200 50 H I L CNN "Height"
+F6 "ams" 1150 -300 50 H I L CNN "Manufacturer_Name"
+F7 "TSL2561" 1150 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "N/A" 1150 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA" 1150 -600 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 1100 100 1100 -300 200 -300 200 100 N
+X VDD 1 0 0 200 R 50 50 0 0 U
+X ADDR_SEL 2 0 -100 200 R 50 50 0 0 U
+X GND 3 0 -200 200 R 50 50 0 0 U
+X SCL 4 1300 0 200 L 50 50 0 0 U
+X INT 5 1300 -100 200 L 50 50 0 0 U
+X SDA 6 1300 -200 200 L 50 50 0 0 U
+ENDDRAW
+ENDDEF
+#
+# symbols_TTB12G51-Balun
+#
+DEF symbols_TTB12G51-Balun U 0 20 Y Y 1 F N
+F0 "U" 0 250 50 H V C CNN
+F1 "symbols_TTB12G51-Balun" 0 -300 50 H V C CNN
+F2 "custom-footprints:2450FM07D0034T" 110 -400 50 H I C CNN
+F3 "" 0 300 50 H I C CNN
+$FPLIST
+ Balun*Johanson*5400BL15B050E*
+$ENDFPLIST
+DRAW
+A -60 -90 30 -899 899 1 1 8 N -60 -120 -60 -60
+A -60 -30 30 -899 899 1 1 8 N -60 -60 -60 0
+A -60 30 30 -899 899 1 1 8 N -60 0 -60 60
+A -60 90 30 -899 899 1 1 8 N -60 60 -60 120
+A 60 -90 30 901 -901 1 1 8 N 60 -60 60 -120
+A 60 -30 30 901 -901 1 1 8 N 60 0 60 -60
+A 60 30 30 901 -901 1 1 8 N 60 60 60 0
+A 60 90 30 901 -901 1 1 8 N 60 120 60 60
+P 3 1 1 6 -100 200 -60 200 -60 120 N
+P 3 1 1 6 -60 -120 -60 -200 -100 -200 N
+P 3 1 1 6 60 120 60 200 100 200 N
+P 3 1 1 6 100 -200 60 -200 60 -120 N
+X ~ 1 -200 200 100 R 50 50 1 1 P
+X GND 2 -100 -300 100 U 50 50 1 1 W
+X ~ 3 200 -200 100 L 50 50 1 1 P
+X ~ 4 200 200 100 L 50 50 1 1 P
+X GND 5 -100 -300 100 U 50 50 1 1 P N
+ENDDRAW
+ENDDEF
+#
+# symbols_U.FL-R-SMT-1
+#
+DEF symbols_U.FL-R-SMT-1 J 0 30 Y Y 1 F N
+F0 "J" -300 450 50 H V L CNN
+F1 "symbols_U.FL-R-SMT-1" -300 350 50 H V L CNN
+F2 "U.FL-R-SMT-1" -300 250 50 H I L CNN
+F3 "https://www.hirose.co.jp/cataloge_hp/ed_UFL_20141014.pdf" -300 150 50 H I L CNN
+F4 "Hirose" -300 -150 50 H I L CNN "Manufacturer_Name"
+F5 "U.FL-R-SMT-1" -300 -250 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 -200 100 200 100 200 -100 -200 -100 -200 100 N
+X GND 1 100 -300 200 U 50 50 0 0 U
+X 2 2 100 -300 200 U 50 50 0 0 U N
+X ANT 3 -400 0 200 R 50 50 0 0 U
 ENDDRAW
 ENDDEF
 #
